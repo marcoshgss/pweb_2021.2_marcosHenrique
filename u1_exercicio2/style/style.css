@@ -82,3 +82,8 @@ thead td {
 tbody td {
   background-color:white;
 }
+
+h1.diferenciado {
+ color:blue;
+ text-decoration: underline;
+}

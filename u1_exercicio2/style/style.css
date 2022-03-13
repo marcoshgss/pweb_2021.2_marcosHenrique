@@ -33,6 +33,11 @@ ul.topnav li.right {
   float: right;
 }
 
+@media screen and (max-width: 600px) {
+  ul.topnav li.right, 
+  ul.topnav li {float: none;}
+}
+
 div.centralizar h2 {
   display: flex;
   align-items: center;
@@ -56,12 +61,24 @@ input[type="submit"] {
   transition: 0.5s;
 }
 
-input[type="submit"]:hover{
+input[type="submit"]:hover {
   background-color: white;
   color: purple;
 }
 
-@media screen and (max-width: 600px) {
-  ul.topnav li.right, 
-  ul.topnav li {float: none;}
+table{
+  width: 100%;
+}
+
+td {
+  background-color:white;
+  padding: 4px;
+}
+
+thead td {
+  font-weight: bold;
+}
+
+tbody td {
+  background-color:white;
 }

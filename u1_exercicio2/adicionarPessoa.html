@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="pt_br">
+
 <head>
     <title>Adicionar pessoas</title>
     <link rel="stylesheet" href="style/style.css">
@@ -13,7 +14,38 @@
         <li><a href="noticias.html">Canais de notícias</a></li>
         <li><a href="contato.html">Mande um e-mail</a></li>
         <li class="right"><a href="sobre.html">Sobre o site</a></li>
-      </ul>
+    </ul>
+
+    <h1>Formulário para cadastro de pessoas:</h1>
+
+    <form action="adicionadaComSucesso.html">                   <!--Formulário-->
+        <label for="nome">Nome completo*:</label>
+        <input type="text" required><br>
+
+        <label for="data"><br>Data de nascimento*:</label>
+        <input type="date" required><br>
+
+        <label for="email"><br>e-Mail*:</label>
+        <input type="email" required><br>
+
+        <label for="sexo"><br>Sexo*:</label><br>
+
+        <br><input type="radio" id="primeira opção" name="Masculino" value="Masculino">
+        <label for="Masculino">Masculino</label><br>
+
+        <br><input type="radio" id="segunda opção" name="Feminino" value="Feminino">
+        <label for="Feminino">Feminino</label><br>
+
+        <br><input type="radio" id="terceira opção" name="Não informar" value="Não informar">
+        <label for="Não informar">Não informar</label><br>
+
+
+        <br><input type="submit" value="Limpar">
+        <input type="submit" value="Cadastrar">
+
+        <p>* Campo obrigatório</p>
+    </form>
+    </div>
 
 </body>
 

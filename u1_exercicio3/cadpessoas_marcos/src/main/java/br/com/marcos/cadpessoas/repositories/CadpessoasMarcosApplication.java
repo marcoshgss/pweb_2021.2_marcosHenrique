@@ -1,4 +1,4 @@
-package br.com.marcos.cadpessoas.cadpessoas_marcos;
+package br.com.marcos.cadpessoas.repositories;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;

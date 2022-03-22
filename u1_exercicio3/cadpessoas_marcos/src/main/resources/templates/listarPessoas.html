@@ -2,65 +2,57 @@
 <html lang="pt_br">
 
 <head>
-    <title>Listar pessoas</title>
-    <link rel="stylesheet" href="style/style.css">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/x-icon" href="favicon.ico">
+    <link href="/style/style.css" rel="stylesheet"/>	
+	<title>Listar pessoas</title>
 </head>
 
 <body>
     <ul class="topnav">
-        <li><a href="index.html">Início</a></li>
-        <li><a href="adicionarPessoa.html">Adicionar pessoas</a></li>
-        <li><a class="active" href="listarPessoas.html">Listar pessoas</a></li>
-        <li><a href="noticias.html">Canais de notícias</a></li>
-        <li><a href="contato.html">Mande um e-mail</a></li>
-        <li class="right"><a href="sobre.html">Sobre o site</a></li>
+        <li><a href="/">Início</a></li>
+        <li><a href="/adicionarPessoa.html">Adicionar pessoas</a></li>
+        <li><a class="active" href="/listarPessoas.html">Listar pessoas</a></li>
+        <li><a href="/public/noticias.html">Notícias</a></li>
+        <li><a href="/public/contato.html">Mande um e-mail</a></li>
+        <li class="right"><a href="/public/sobre.html">Sobre o site</a></li>
     </ul>
 
-    <h1>Lista de pessoas cadastradas</h1>
-
-    <table>
-        <thead>
-            <tr>
-                <td>Nome Completo</td>
-                <td>Data de Nascimento</td>
-                <td>e-Mail</td>
-                <td>Sexo</td>
-                <td>Editar</td>
-                <td>Remover</td>
-            </tr>
-        </thead>
-
-        <tfoot></tfoot>
-
-        <tbody>
-            <tr>
-                <td>José</td>
-                <td>01/01/1900</td>
-                <td><a href="">jose@outro.com</a></td>
-                <td>Masculino</td>
-                <td><a href="editarPessoa.html">Editar</a></td>
-                <td><a href="">Remover</a></td>
-            </tr>
-
-            <tr>
-                <td>Maria</td>
-                <td>01/01/1890</td>
-                <td><a href="">maria@outro.com</a></td>
-                <td>Feminino</td>
-                <td><a href="editarPessoa.html">Editar</a></td>
-                <td><a href="">Remover</a></td>
-            </tr>
-
-            <tr>
-                <td>Pablita</td>
-                <td>01/01/1900</td>
-                <td><a href="">naoSei@outro.com</a></td>
-                <td>Não informado</td>
-                <td><a href="editarPessoa.html">Editar</a></td>
-                <td><a href="">Remover</a></td>
-            </tr>
-        </tbody>
-    </table>
+		<div style="text-align: center;">
+			<h1>Lista de pessoas</h1>
+		</div>
+		<table>
+			<thead>
+				<tr>
+					<th>id</th>
+					<th>Nome Completo</th>
+					<th>Data de Nascimento</th>
+					<th>e-Mail</th>
+					<th>Gênero</th>
+					<th>Editar</th>
+					<th>Remover</th>
+				</tr>
+			</thead>
+			<tbody>
+				<tr th:each="umaPessoa: ${todasAsPessoas}">
+					<td th:text="${umaPessoa.id}"></td>
+					<td th:text="${umaPessoa.nome}"></td>
+					<td>
+						<a th:href="'mailto:'+${umaPessoa.email}" th:text="${umaPessoa.email}"></a>
+					</td>
+					<td th:text="${#temporals.format(umaPessoa.dataNascimento,'dd/MM/yyyy')}"></td>
+					<td th:text="${umaPessoa.genero}"></td>
+					<td>
+						<a th:href="@{/editar/{id}(id=${umaPessoa.id})}">Editar</a>
+					</td>
+					<td>
+						<a th:href="@{/remover/{id}(id=${umaPessoa.id})}">Remover</a>
+					</td>
+				</tr>
+			</tbody>
+		</table>
 </body>
 
 </html>

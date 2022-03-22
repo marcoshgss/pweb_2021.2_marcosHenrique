@@ -1,128 +1,29 @@
-2022-03-20 01:43:02.651  INFO 16632 --- [restartedMain] b.c.m.c.c.CadpessoasMarcosApplication    : Starting CadpessoasMarcosApplication using Java 1.8.0_322 on LAPTOP-SBHM2LI7 with PID 16632 (C:\Users\sena_\OneDrive\Documentos\MATERIAS\SEXTO PER√çODO\PROGRAMACAO WEB\pweb_2021.2_marcosHenrique\u1_exercicio3\cadpessoas_marcos\target\classes started by sena_ in c:\Users\sena_\OneDrive\Documentos\MATERIAS\SEXTO PER√çODO\PROGRAMACAO WEB\pweb_2021.2_marcosHenrique\u1_exercicio3\cadpessoas_marcos)
-2022-03-20 01:43:02.653  INFO 16632 --- [restartedMain] b.c.m.c.c.CadpessoasMarcosApplication    : No active profile set, falling back to 1 default profile: "default"
-2022-03-20 01:43:02.726  INFO 16632 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
-2022-03-20 01:43:02.726  INFO 16632 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
-2022-03-20 01:43:04.380  INFO 16632 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
-2022-03-20 01:43:04.409  INFO 16632 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 12 ms. Found 0 JPA repository interfaces.
-2022-03-20 01:43:06.407  INFO 16632 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
-2022-03-20 01:43:06.436  INFO 16632 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
-2022-03-20 01:43:06.437  INFO 16632 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.58]
-2022-03-20 01:43:06.711  INFO 16632 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
-2022-03-20 01:43:06.713  INFO 16632 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 3985 ms
-2022-03-20 01:43:06.846  INFO 16632 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
-2022-03-20 01:43:07.300  INFO 16632 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
-2022-03-20 01:43:07.320  INFO 16632 --- [restartedMain] o.s.b.a.h2.H2ConsoleAutoConfiguration    : H2 console available at '/h2-console'. Database available at 'jdbc:h2:mem:cadpessoas'
-2022-03-20 01:43:09.136  INFO 16632 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
-2022-03-20 01:43:09.468  INFO 16632 --- [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
-2022-03-20 01:43:09.678  INFO 16632 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
-2022-03-20 01:43:09.739  INFO 16632 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
-2022-03-20 01:43:09.755  INFO 16632 --- [restartedMain] b.c.m.c.c.CadpessoasMarcosApplication    : Started CadpessoasMarcosApplication in 7.865 seconds (JVM running for 8.84)
-2022-03-20 01:46:40.764  INFO 13720 --- [restartedMain] b.c.m.c.c.CadpessoasMarcosApplication    : Starting CadpessoasMarcosApplication using Java 1.8.0_322 on LAPTOP-SBHM2LI7 with PID 13720 (C:\Users\sena_\OneDrive\Documentos\MATERIAS\SEXTO PERÕODO\PROGRAMACAO WEB\pweb_2021.2_marcosHenrique\u1_exercicio3\cadpessoas_marcos\target\classes started by sena_ in C:\Users\sena_\OneDrive\Documentos\MATERIAS\SEXTO PERÕODO\PROGRAMACAO WEB\pweb_2021.2_marcosHenrique\u1_exercicio3\cadpessoas_marcos)
-2022-03-20 01:46:40.766  INFO 13720 --- [restartedMain] b.c.m.c.c.CadpessoasMarcosApplication    : No active profile set, falling back to 1 default profile: "default"
-2022-03-20 01:46:40.811  INFO 13720 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
-2022-03-20 01:46:40.812  INFO 13720 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
-2022-03-20 01:46:41.296  INFO 13720 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
-2022-03-20 01:46:41.312  INFO 13720 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 7 ms. Found 0 JPA repository interfaces.
-2022-03-20 01:46:42.124  INFO 13720 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
-2022-03-20 01:46:42.134  INFO 13720 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
-2022-03-20 01:46:42.135  INFO 13720 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.58]
-2022-03-20 01:46:42.214  INFO 13720 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
-2022-03-20 01:46:42.215  INFO 13720 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1401 ms
-2022-03-20 01:46:42.247  INFO 13720 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
-2022-03-20 01:46:42.345  INFO 13720 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
-2022-03-20 01:46:42.354  INFO 13720 --- [restartedMain] o.s.b.a.h2.H2ConsoleAutoConfiguration    : H2 console available at '/h2-console'. Database available at 'jdbc:h2:mem:cadpessoas'
-2022-03-20 01:46:42.872  INFO 13720 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
-2022-03-20 01:46:43.057  INFO 13720 --- [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
-2022-03-20 01:46:43.177  WARN 13720 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : Unable to start LiveReload server
-2022-03-20 01:46:43.195  WARN 13720 --- [restartedMain] ConfigServletWebServerApplicationContext : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.context.ApplicationContextException: Failed to start bean 'webServerStartStop'; nested exception is org.springframework.boot.web.server.PortInUseException: Port 8080 is already in use
-2022-03-20 01:46:43.198  INFO 13720 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
-2022-03-20 01:46:43.437  WARN 13720 --- [restartedMain] o.s.b.f.support.DisposableBeanAdapter    : Invocation of destroy method failed on bean with name 'inMemoryDatabaseShutdownExecutor': org.h2.jdbc.JdbcSQLNonTransientConnectionException: Database is already closed (to disable automatic closing at VM shutdown, add ";DB_CLOSE_ON_EXIT=FALSE" to the db URL) [90121-200]
-2022-03-20 01:46:43.438  INFO 13720 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
-2022-03-20 01:46:43.440  INFO 13720 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
-2022-03-20 01:46:43.443  INFO 13720 --- [restartedMain] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
-2022-03-20 01:46:43.456  INFO 13720 --- [restartedMain] ConditionEvaluationReportLoggingListener : 
+2022-03-22 03:30:40.186  INFO 6296 --- [restartedMain] b.c.m.c.r.CadpessoasMarcosApplication    : Starting CadpessoasMarcosApplication using Java 1.8.0_322 on LAPTOP-SBHM2LI7 with PID 6296 (C:\Users\sena_\OneDrive\Documentos\MATERIAS\SEXTO PERÕODO\PROGRAMACAO WEB\pweb_2021.2_marcosHenrique\u1_exercicio3\cadpessoas_marcos\target\classes started by sena_ in C:\Users\sena_\OneDrive\Documentos\MATERIAS\SEXTO PERÕODO\PROGRAMACAO WEB\pweb_2021.2_marcosHenrique\u1_exercicio3\cadpessoas_marcos)
+2022-03-22 03:30:40.202  INFO 6296 --- [restartedMain] b.c.m.c.r.CadpessoasMarcosApplication    : No active profile set, falling back to 1 default profile: "default"
+2022-03-22 03:30:40.364  INFO 6296 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2022-03-22 03:30:40.364  INFO 6296 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2022-03-22 03:30:41.719  INFO 6296 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2022-03-22 03:30:41.764  INFO 6296 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 36 ms. Found 1 JPA repository interfaces.
+2022-03-22 03:30:42.822  INFO 6296 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2022-03-22 03:30:42.830  INFO 6296 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2022-03-22 03:30:42.830  INFO 6296 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.58]
+2022-03-22 03:30:42.912  INFO 6296 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2022-03-22 03:30:42.912  INFO 6296 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 2548 ms
+2022-03-22 03:30:43.072  INFO 6296 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2022-03-22 03:30:43.181  INFO 6296 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2022-03-22 03:30:43.199  INFO 6296 --- [restartedMain] o.s.b.a.h2.H2ConsoleAutoConfiguration    : H2 console available at '/h2-console'. Database available at 'jdbc:h2:mem:cadpessoas'
+2022-03-22 03:30:44.618  INFO 6296 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2022-03-22 03:30:44.827  INFO 6296 --- [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+2022-03-22 03:30:45.062  WARN 6296 --- [restartedMain] ConfigServletWebServerApplicationContext : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'pessoaRepository' defined in br.com.marcos.cadpessoas.repositories.PessoaRepository defined in @EnableJpaRepositories declared on JpaRepositoriesRegistrar.EnableJpaRepositoriesConfiguration: Invocation of init method failed; nested exception is java.lang.IllegalArgumentException: Not a managed type: class br.com.marcos.cadpessoas.model.Pessoa
+2022-03-22 03:30:45.062  INFO 6296 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2022-03-22 03:30:45.293  WARN 6296 --- [restartedMain] o.s.b.f.support.DisposableBeanAdapter    : Invocation of destroy method failed on bean with name 'inMemoryDatabaseShutdownExecutor': org.h2.jdbc.JdbcSQLNonTransientConnectionException: Database is already closed (to disable automatic closing at VM shutdown, add ";DB_CLOSE_ON_EXIT=FALSE" to the db URL) [90121-200]
+2022-03-22 03:30:45.293  INFO 6296 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2022-03-22 03:30:45.308  INFO 6296 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2022-03-22 03:30:45.308  INFO 6296 --- [restartedMain] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2022-03-22 03:30:45.317  INFO 6296 --- [restartedMain] ConditionEvaluationReportLoggingListener : 
 
 Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
-2022-03-20 01:46:43.521 ERROR 13720 --- [restartedMain] o.s.b.d.LoggingFailureAnalysisReporter   : 
-
-***************************
-APPLICATION FAILED TO START
-***************************
-
-Description:
-
-Web server failed to start. Port 8080 was already in use.
-
-Action:
-
-Identify and stop the process that's listening on port 8080 or configure this application to listen on another port.
-
-2022-03-20 01:52:42.674  INFO 18336 --- [restartedMain] b.c.m.c.c.CadpessoasMarcosApplication    : Starting CadpessoasMarcosApplication using Java 1.8.0_322 on LAPTOP-SBHM2LI7 with PID 18336 (C:\Users\sena_\OneDrive\Documentos\MATERIAS\SEXTO PERÕODO\PROGRAMACAO WEB\pweb_2021.2_marcosHenrique\u1_exercicio3\cadpessoas_marcos\target\classes started by sena_ in C:\Users\sena_\OneDrive\Documentos\MATERIAS\SEXTO PERÕODO\PROGRAMACAO WEB\pweb_2021.2_marcosHenrique\u1_exercicio3\cadpessoas_marcos)
-2022-03-20 01:52:42.674  INFO 18336 --- [restartedMain] b.c.m.c.c.CadpessoasMarcosApplication    : No active profile set, falling back to 1 default profile: "default"
-2022-03-20 01:52:42.752  INFO 18336 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
-2022-03-20 01:52:42.752  INFO 18336 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
-2022-03-20 01:52:43.737  INFO 18336 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
-2022-03-20 01:52:43.769  INFO 18336 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 12 ms. Found 0 JPA repository interfaces.
-2022-03-20 01:52:44.679  INFO 18336 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
-2022-03-20 01:52:44.679  INFO 18336 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
-2022-03-20 01:52:44.679  INFO 18336 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.58]
-2022-03-20 01:52:44.761  INFO 18336 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
-2022-03-20 01:52:44.761  INFO 18336 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1994 ms
-2022-03-20 01:52:44.792  INFO 18336 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
-2022-03-20 01:52:44.873  INFO 18336 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
-2022-03-20 01:52:44.873  INFO 18336 --- [restartedMain] o.s.b.a.h2.H2ConsoleAutoConfiguration    : H2 console available at '/h2-console'. Database available at 'jdbc:h2:mem:cadpessoas'
-2022-03-20 01:52:45.420  INFO 18336 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
-2022-03-20 01:52:45.591  INFO 18336 --- [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
-2022-03-20 01:52:45.703  WARN 18336 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : Unable to start LiveReload server
-2022-03-20 01:52:45.719  WARN 18336 --- [restartedMain] ConfigServletWebServerApplicationContext : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.context.ApplicationContextException: Failed to start bean 'webServerStartStop'; nested exception is org.springframework.boot.web.server.PortInUseException: Port 8080 is already in use
-2022-03-20 01:52:45.719  INFO 18336 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
-2022-03-20 01:52:45.938  WARN 18336 --- [restartedMain] o.s.b.f.support.DisposableBeanAdapter    : Invocation of destroy method failed on bean with name 'inMemoryDatabaseShutdownExecutor': org.h2.jdbc.JdbcSQLNonTransientConnectionException: Database is already closed (to disable automatic closing at VM shutdown, add ";DB_CLOSE_ON_EXIT=FALSE" to the db URL) [90121-200]
-2022-03-20 01:52:45.938  INFO 18336 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
-2022-03-20 01:52:45.938  INFO 18336 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
-2022-03-20 01:52:45.938  INFO 18336 --- [restartedMain] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
-2022-03-20 01:52:45.938  INFO 18336 --- [restartedMain] ConditionEvaluationReportLoggingListener : 
-
-Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
-2022-03-20 01:52:45.953 ERROR 18336 --- [restartedMain] o.s.b.d.LoggingFailureAnalysisReporter   : 
-
-***************************
-APPLICATION FAILED TO START
-***************************
-
-Description:
-
-Web server failed to start. Port 8080 was already in use.
-
-Action:
-
-Identify and stop the process that's listening on port 8080 or configure this application to listen on another port.
-
-2022-03-20 05:28:21.206  INFO 12348 --- [restartedMain] b.c.m.c.r.CadpessoasMarcosApplication    : Starting CadpessoasMarcosApplication using Java 1.8.0_322 on LAPTOP-SBHM2LI7 with PID 12348 (C:\Users\sena_\OneDrive\Documentos\MATERIAS\SEXTO PER√çODO\PROGRAMACAO WEB\pweb_2021.2_marcosHenrique\u1_exercicio3\cadpessoas_marcos\target\classes started by sena_ in c:\Users\sena_\OneDrive\Documentos\MATERIAS\SEXTO PER√çODO\PROGRAMACAO WEB\pweb_2021.2_marcosHenrique\u1_exercicio3\cadpessoas_marcos)
-2022-03-20 05:28:21.221  INFO 12348 --- [restartedMain] b.c.m.c.r.CadpessoasMarcosApplication    : No active profile set, falling back to 1 default profile: "default"
-2022-03-20 05:28:21.324  INFO 12348 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
-2022-03-20 05:28:21.324  INFO 12348 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
-2022-03-20 05:28:22.412  INFO 12348 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
-2022-03-20 05:28:22.485  INFO 12348 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 60 ms. Found 1 JPA repository interfaces.
-2022-03-20 05:28:27.255  INFO 12348 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
-2022-03-20 05:28:27.294  INFO 12348 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
-2022-03-20 05:28:27.295  INFO 12348 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.58]
-2022-03-20 05:28:27.414  INFO 12348 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
-2022-03-20 05:28:27.415  INFO 12348 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 6090 ms
-2022-03-20 05:28:27.489  INFO 12348 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
-2022-03-20 05:28:27.861  INFO 12348 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
-2022-03-20 05:28:27.871  INFO 12348 --- [restartedMain] o.s.b.a.h2.H2ConsoleAutoConfiguration    : H2 console available at '/h2-console'. Database available at 'jdbc:h2:mem:cadpessoas'
-2022-03-20 05:28:29.982  INFO 12348 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
-2022-03-20 05:28:30.719  INFO 12348 --- [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
-2022-03-20 05:28:31.501  WARN 12348 --- [restartedMain] ConfigServletWebServerApplicationContext : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'pessoaRepository' defined in br.com.marcos.cadpessoas.repositories.PessoaRepository defined in @EnableJpaRepositories declared on JpaRepositoriesRegistrar.EnableJpaRepositoriesConfiguration: Invocation of init method failed; nested exception is java.lang.IllegalArgumentException: Not a managed type: class br.com.marcos.cadpessoas.model.Pessoa
-2022-03-20 05:28:31.506  INFO 12348 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
-2022-03-20 05:28:31.747  WARN 12348 --- [restartedMain] o.s.b.f.support.DisposableBeanAdapter    : Invocation of destroy method failed on bean with name 'inMemoryDatabaseShutdownExecutor': org.h2.jdbc.JdbcSQLNonTransientConnectionException: Database is already closed (to disable automatic closing at VM shutdown, add ";DB_CLOSE_ON_EXIT=FALSE" to the db URL) [90121-200]
-2022-03-20 05:28:31.749  INFO 12348 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
-2022-03-20 05:28:31.767  INFO 12348 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
-2022-03-20 05:28:31.776  INFO 12348 --- [restartedMain] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
-2022-03-20 05:28:32.005  INFO 12348 --- [restartedMain] ConditionEvaluationReportLoggingListener : 
-
-Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
-2022-03-20 05:28:32.207 ERROR 12348 --- [restartedMain] o.s.boot.SpringApplication               : Application run failed
+2022-03-22 03:30:45.349 ERROR 6296 --- [restartedMain] o.s.boot.SpringApplication               : Application run failed
 
 org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'pessoaRepository' defined in br.com.marcos.cadpessoas.repositories.PessoaRepository defined in @EnableJpaRepositories declared on JpaRepositoriesRegistrar.EnableJpaRepositoriesConfiguration: Invocation of init method failed; nested exception is java.lang.IllegalArgumentException: Not a managed type: class br.com.marcos.cadpessoas.model.Pessoa
 	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1804) ~[spring-beans-5.3.16.jar:5.3.16]
@@ -166,38 +67,32 @@ Caused by: java.lang.IllegalArgumentException: Not a managed type: class br.com.
 	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1800) ~[spring-beans-5.3.16.jar:5.3.16]
 	... 21 common frames omitted
 
-2022-03-20 05:28:36.229  INFO 18248 --- [restartedMain] b.c.m.c.r.CadpessoasMarcosApplication    : Starting CadpessoasMarcosApplication using Java 1.8.0_322 on LAPTOP-SBHM2LI7 with PID 18248 (C:\Users\sena_\OneDrive\Documentos\MATERIAS\SEXTO PER√çODO\PROGRAMACAO WEB\pweb_2021.2_marcosHenrique\u1_exercicio3\cadpessoas_marcos\target\classes started by sena_ in c:\Users\sena_\OneDrive\Documentos\MATERIAS\SEXTO PER√çODO\PROGRAMACAO WEB\pweb_2021.2_marcosHenrique\u1_exercicio3\cadpessoas_marcos)
-2022-03-20 05:28:36.230  INFO 18248 --- [restartedMain] b.c.m.c.r.CadpessoasMarcosApplication    : No active profile set, falling back to 1 default profile: "default"
-2022-03-20 05:28:36.287  INFO 18248 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
-2022-03-20 05:28:36.287  INFO 18248 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
-2022-03-20 05:28:37.081  INFO 18248 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
-2022-03-20 05:28:37.173  INFO 18248 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 80 ms. Found 1 JPA repository interfaces.
-2022-03-20 05:28:39.324  INFO 18248 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
-2022-03-20 05:28:39.363  INFO 18248 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
-2022-03-20 05:28:39.364  INFO 18248 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.58]
-2022-03-20 05:28:39.859  INFO 18248 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
-2022-03-20 05:28:39.860  INFO 18248 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 3572 ms
-2022-03-20 05:28:40.020  INFO 18248 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
-2022-03-20 05:28:40.771  INFO 18248 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
-2022-03-20 05:28:40.792  INFO 1144 --- [restartedMain] b.c.m.c.r.CadpessoasMarcosApplication    : Starting CadpessoasMarcosApplication using Java 1.8.0_322 on LAPTOP-SBHM2LI7 with PID 1144 (C:\Users\sena_\OneDrive\Documentos\MATERIAS\SEXTO PER√çODO\PROGRAMACAO WEB\pweb_2021.2_marcosHenrique\u1_exercicio3\cadpessoas_marcos\target\classes started by sena_ in c:\Users\sena_\OneDrive\Documentos\MATERIAS\SEXTO PER√çODO\PROGRAMACAO WEB\pweb_2021.2_marcosHenrique\u1_exercicio3\cadpessoas_marcos)
-2022-03-20 05:28:40.795  INFO 1144 --- [restartedMain] b.c.m.c.r.CadpessoasMarcosApplication    : No active profile set, falling back to 1 default profile: "default"
-2022-03-20 05:28:40.805  INFO 18248 --- [restartedMain] o.s.b.a.h2.H2ConsoleAutoConfiguration    : H2 console available at '/h2-console'. Database available at 'jdbc:h2:mem:cadpessoas'
-2022-03-20 05:28:41.006  INFO 1144 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
-2022-03-20 05:28:41.007  INFO 1144 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
-2022-03-20 05:28:42.054  INFO 1144 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
-2022-03-20 05:28:42.137  INFO 1144 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 67 ms. Found 1 JPA repository interfaces.
-2022-03-20 05:28:42.378  INFO 18248 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
-2022-03-20 05:28:43.452  INFO 18248 --- [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
-2022-03-20 05:28:45.343  WARN 18248 --- [restartedMain] ConfigServletWebServerApplicationContext : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'pessoaRepository' defined in br.com.marcos.cadpessoas.repositories.PessoaRepository defined in @EnableJpaRepositories declared on JpaRepositoriesRegistrar.EnableJpaRepositoriesConfiguration: Invocation of init method failed; nested exception is java.lang.IllegalArgumentException: Not a managed type: class br.com.marcos.cadpessoas.model.Pessoa
-2022-03-20 05:28:45.350  INFO 18248 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
-2022-03-20 05:28:45.605  WARN 18248 --- [restartedMain] o.s.b.f.support.DisposableBeanAdapter    : Invocation of destroy method failed on bean with name 'inMemoryDatabaseShutdownExecutor': org.h2.jdbc.JdbcSQLNonTransientConnectionException: Database is already closed (to disable automatic closing at VM shutdown, add ";DB_CLOSE_ON_EXIT=FALSE" to the db URL) [90121-200]
-2022-03-20 05:28:45.606  INFO 18248 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
-2022-03-20 05:28:45.612  INFO 18248 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
-2022-03-20 05:28:45.615  INFO 18248 --- [restartedMain] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
-2022-03-20 05:28:45.634  INFO 18248 --- [restartedMain] ConditionEvaluationReportLoggingListener : 
+2022-03-22 04:41:20.337  INFO 14148 --- [restartedMain] b.c.m.c.r.CadpessoasMarcosApplication    : Starting CadpessoasMarcosApplication using Java 1.8.0_322 on LAPTOP-SBHM2LI7 with PID 14148 (C:\Users\sena_\OneDrive\Documentos\MATERIAS\SEXTO PERÕODO\PROGRAMACAO WEB\pweb_2021.2_marcosHenrique\u1_exercicio3\cadpessoas_marcos\target\classes started by sena_ in C:\Users\sena_\OneDrive\Documentos\MATERIAS\SEXTO PERÕODO\PROGRAMACAO WEB\pweb_2021.2_marcosHenrique\u1_exercicio3\cadpessoas_marcos)
+2022-03-22 04:41:20.337  INFO 14148 --- [restartedMain] b.c.m.c.r.CadpessoasMarcosApplication    : No active profile set, falling back to 1 default profile: "default"
+2022-03-22 04:41:20.431  INFO 14148 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2022-03-22 04:41:20.431  INFO 14148 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2022-03-22 04:41:21.399  INFO 14148 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2022-03-22 04:41:21.488  INFO 14148 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 68 ms. Found 1 JPA repository interfaces.
+2022-03-22 04:41:22.559  INFO 14148 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2022-03-22 04:41:22.576  INFO 14148 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2022-03-22 04:41:22.576  INFO 14148 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.58]
+2022-03-22 04:41:22.657  INFO 14148 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2022-03-22 04:41:22.657  INFO 14148 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 2226 ms
+2022-03-22 04:41:22.684  INFO 14148 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2022-03-22 04:41:22.766  INFO 14148 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2022-03-22 04:41:22.785  INFO 14148 --- [restartedMain] o.s.b.a.h2.H2ConsoleAutoConfiguration    : H2 console available at '/h2-console'. Database available at 'jdbc:h2:mem:cadpessoas'
+2022-03-22 04:41:23.328  INFO 14148 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2022-03-22 04:41:23.499  INFO 14148 --- [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+2022-03-22 04:41:23.687  WARN 14148 --- [restartedMain] ConfigServletWebServerApplicationContext : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'pessoaRepository' defined in br.com.marcos.cadpessoas.repositories.PessoaRepository defined in @EnableJpaRepositories declared on JpaRepositoriesRegistrar.EnableJpaRepositoriesConfiguration: Invocation of init method failed; nested exception is java.lang.IllegalArgumentException: Not a managed type: class br.com.marcos.cadpessoas.model.Pessoa
+2022-03-22 04:41:23.687  INFO 14148 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2022-03-22 04:41:23.906  WARN 14148 --- [restartedMain] o.s.b.f.support.DisposableBeanAdapter    : Invocation of destroy method failed on bean with name 'inMemoryDatabaseShutdownExecutor': org.h2.jdbc.JdbcSQLNonTransientConnectionException: Database is already closed (to disable automatic closing at VM shutdown, add ";DB_CLOSE_ON_EXIT=FALSE" to the db URL) [90121-200]
+2022-03-22 04:41:23.906  INFO 14148 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2022-03-22 04:41:23.906  INFO 14148 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2022-03-22 04:41:23.906  INFO 14148 --- [restartedMain] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2022-03-22 04:41:23.906  INFO 14148 --- [restartedMain] ConditionEvaluationReportLoggingListener : 
 
 Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
-2022-03-20 05:28:45.677 ERROR 18248 --- [restartedMain] o.s.boot.SpringApplication               : Application run failed
+2022-03-22 04:41:23.937 ERROR 14148 --- [restartedMain] o.s.boot.SpringApplication               : Application run failed
 
 org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'pessoaRepository' defined in br.com.marcos.cadpessoas.repositories.PessoaRepository defined in @EnableJpaRepositories declared on JpaRepositoriesRegistrar.EnableJpaRepositoriesConfiguration: Invocation of init method failed; nested exception is java.lang.IllegalArgumentException: Not a managed type: class br.com.marcos.cadpessoas.model.Pessoa
 	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1804) ~[spring-beans-5.3.16.jar:5.3.16]
@@ -241,26 +136,170 @@ Caused by: java.lang.IllegalArgumentException: Not a managed type: class br.com.
 	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1800) ~[spring-beans-5.3.16.jar:5.3.16]
 	... 21 common frames omitted
 
-2022-03-20 05:28:45.934  INFO 1144 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
-2022-03-20 05:28:45.947  INFO 1144 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
-2022-03-20 05:28:45.947  INFO 1144 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.58]
-2022-03-20 05:28:46.125  INFO 1144 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
-2022-03-20 05:28:46.126  INFO 1144 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 5116 ms
-2022-03-20 05:28:46.179  INFO 1144 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
-2022-03-20 05:28:46.489  INFO 1144 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
-2022-03-20 05:28:46.509  INFO 1144 --- [restartedMain] o.s.b.a.h2.H2ConsoleAutoConfiguration    : H2 console available at '/h2-console'. Database available at 'jdbc:h2:mem:cadpessoas'
-2022-03-20 05:28:48.496  INFO 1144 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
-2022-03-20 05:28:49.223  INFO 1144 --- [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
-2022-03-20 05:28:50.076  WARN 1144 --- [restartedMain] ConfigServletWebServerApplicationContext : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'pessoaRepository' defined in br.com.marcos.cadpessoas.repositories.PessoaRepository defined in @EnableJpaRepositories declared on JpaRepositoriesRegistrar.EnableJpaRepositoriesConfiguration: Invocation of init method failed; nested exception is java.lang.IllegalArgumentException: Not a managed type: class br.com.marcos.cadpessoas.model.Pessoa
-2022-03-20 05:28:50.086  INFO 1144 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
-2022-03-20 05:28:50.333  WARN 1144 --- [restartedMain] o.s.b.f.support.DisposableBeanAdapter    : Invocation of destroy method failed on bean with name 'inMemoryDatabaseShutdownExecutor': org.h2.jdbc.JdbcSQLNonTransientConnectionException: Database is already closed (to disable automatic closing at VM shutdown, add ";DB_CLOSE_ON_EXIT=FALSE" to the db URL) [90121-200]
-2022-03-20 05:28:50.333  INFO 1144 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
-2022-03-20 05:28:50.339  INFO 1144 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
-2022-03-20 05:28:50.342  INFO 1144 --- [restartedMain] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
-2022-03-20 05:28:50.356  INFO 1144 --- [restartedMain] ConditionEvaluationReportLoggingListener : 
+2022-03-22 04:44:53.031  INFO 13776 --- [restartedMain] b.c.m.c.r.CadpessoasMarcosApplication    : Starting CadpessoasMarcosApplication using Java 1.8.0_322 on LAPTOP-SBHM2LI7 with PID 13776 (C:\Users\sena_\OneDrive\Documentos\MATERIAS\SEXTO PERÕODO\PROGRAMACAO WEB\pweb_2021.2_marcosHenrique\u1_exercicio3\cadpessoas_marcos\target\classes started by sena_ in C:\Users\sena_\OneDrive\Documentos\MATERIAS\SEXTO PERÕODO\PROGRAMACAO WEB\pweb_2021.2_marcosHenrique\u1_exercicio3\cadpessoas_marcos)
+2022-03-22 04:44:53.031  INFO 13776 --- [restartedMain] b.c.m.c.r.CadpessoasMarcosApplication    : No active profile set, falling back to 1 default profile: "default"
+2022-03-22 04:44:53.078  INFO 13776 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2022-03-22 04:44:53.078  INFO 13776 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2022-03-22 04:44:53.939  INFO 13776 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2022-03-22 04:44:54.032  INFO 13776 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 70 ms. Found 1 JPA repository interfaces.
+2022-03-22 04:44:55.535  INFO 13776 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2022-03-22 04:44:55.551  INFO 13776 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2022-03-22 04:44:55.551  INFO 13776 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.58]
+2022-03-22 04:44:55.617  INFO 13776 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2022-03-22 04:44:55.617  INFO 13776 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 2539 ms
+2022-03-22 04:44:55.648  INFO 13776 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2022-03-22 04:44:55.745  INFO 13776 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2022-03-22 04:44:55.745  INFO 13776 --- [restartedMain] o.s.b.a.h2.H2ConsoleAutoConfiguration    : H2 console available at '/h2-console'. Database available at 'jdbc:h2:mem:cadpessoas'
+2022-03-22 04:44:56.276  INFO 13776 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2022-03-22 04:44:56.448  INFO 13776 --- [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+2022-03-22 04:44:56.638  WARN 13776 --- [restartedMain] ConfigServletWebServerApplicationContext : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'pessoaRepository' defined in br.com.marcos.cadpessoas.repositories.PessoaRepository defined in @EnableJpaRepositories declared on JpaRepositoriesRegistrar.EnableJpaRepositoriesConfiguration: Invocation of init method failed; nested exception is java.lang.IllegalArgumentException: Not a managed type: class br.com.marcos.cadpessoas.model.Pessoa
+2022-03-22 04:44:56.638  INFO 13776 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2022-03-22 04:44:56.857  WARN 13776 --- [restartedMain] o.s.b.f.support.DisposableBeanAdapter    : Invocation of destroy method failed on bean with name 'inMemoryDatabaseShutdownExecutor': org.h2.jdbc.JdbcSQLNonTransientConnectionException: Database is already closed (to disable automatic closing at VM shutdown, add ";DB_CLOSE_ON_EXIT=FALSE" to the db URL) [90121-200]
+2022-03-22 04:44:56.857  INFO 13776 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2022-03-22 04:44:56.857  INFO 13776 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2022-03-22 04:44:56.857  INFO 13776 --- [restartedMain] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2022-03-22 04:44:56.857  INFO 13776 --- [restartedMain] ConditionEvaluationReportLoggingListener : 
 
 Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
-2022-03-20 05:28:50.383 ERROR 1144 --- [restartedMain] o.s.boot.SpringApplication               : Application run failed
+2022-03-22 04:44:56.887 ERROR 13776 --- [restartedMain] o.s.boot.SpringApplication               : Application run failed
+
+org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'pessoaRepository' defined in br.com.marcos.cadpessoas.repositories.PessoaRepository defined in @EnableJpaRepositories declared on JpaRepositoriesRegistrar.EnableJpaRepositoriesConfiguration: Invocation of init method failed; nested exception is java.lang.IllegalArgumentException: Not a managed type: class br.com.marcos.cadpessoas.model.Pessoa
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1804) ~[spring-beans-5.3.16.jar:5.3.16]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:620) ~[spring-beans-5.3.16.jar:5.3.16]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:542) ~[spring-beans-5.3.16.jar:5.3.16]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:335) ~[spring-beans-5.3.16.jar:5.3.16]
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234) ~[spring-beans-5.3.16.jar:5.3.16]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:333) ~[spring-beans-5.3.16.jar:5.3.16]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:208) ~[spring-beans-5.3.16.jar:5.3.16]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:934) ~[spring-beans-5.3.16.jar:5.3.16]
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:918) ~[spring-context-5.3.16.jar:5.3.16]
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:583) ~[spring-context-5.3.16.jar:5.3.16]
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:145) ~[spring-boot-2.6.4.jar:2.6.4]
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:740) [spring-boot-2.6.4.jar:2.6.4]
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:415) [spring-boot-2.6.4.jar:2.6.4]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:303) [spring-boot-2.6.4.jar:2.6.4]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1312) [spring-boot-2.6.4.jar:2.6.4]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1301) [spring-boot-2.6.4.jar:2.6.4]
+	at br.com.marcos.cadpessoas.repositories.CadpessoasMarcosApplication.main(CadpessoasMarcosApplication.java:10) [classes/:na]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:1.8.0_322]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[na:1.8.0_322]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:1.8.0_322]
+	at java.lang.reflect.Method.invoke(Method.java:498) ~[na:1.8.0_322]
+	at org.springframework.boot.devtools.restart.RestartLauncher.run(RestartLauncher.java:49) [spring-boot-devtools-2.6.4.jar:2.6.4]
+Caused by: java.lang.IllegalArgumentException: Not a managed type: class br.com.marcos.cadpessoas.model.Pessoa
+	at org.hibernate.metamodel.internal.MetamodelImpl.managedType(MetamodelImpl.java:582) ~[hibernate-core-5.6.5.Final.jar:5.6.5.Final]
+	at org.hibernate.metamodel.internal.MetamodelImpl.managedType(MetamodelImpl.java:85) ~[hibernate-core-5.6.5.Final.jar:5.6.5.Final]
+	at org.springframework.data.jpa.repository.support.JpaMetamodelEntityInformation.<init>(JpaMetamodelEntityInformation.java:75) ~[spring-data-jpa-2.6.2.jar:2.6.2]
+	at org.springframework.data.jpa.repository.support.JpaEntityInformationSupport.getEntityInformation(JpaEntityInformationSupport.java:66) ~[spring-data-jpa-2.6.2.jar:2.6.2]
+	at org.springframework.data.jpa.repository.support.JpaRepositoryFactory.getEntityInformation(JpaRepositoryFactory.java:232) ~[spring-data-jpa-2.6.2.jar:2.6.2]
+	at org.springframework.data.jpa.repository.support.JpaRepositoryFactory.getTargetRepository(JpaRepositoryFactory.java:181) ~[spring-data-jpa-2.6.2.jar:2.6.2]
+	at org.springframework.data.jpa.repository.support.JpaRepositoryFactory.getTargetRepository(JpaRepositoryFactory.java:164) ~[spring-data-jpa-2.6.2.jar:2.6.2]
+	at org.springframework.data.jpa.repository.support.JpaRepositoryFactory.getTargetRepository(JpaRepositoryFactory.java:75) ~[spring-data-jpa-2.6.2.jar:2.6.2]
+	at org.springframework.data.repository.core.support.RepositoryFactorySupport.getRepository(RepositoryFactorySupport.java:324) ~[spring-data-commons-2.6.2.jar:2.6.2]
+	at org.springframework.data.repository.core.support.RepositoryFactoryBeanSupport.lambda$afterPropertiesSet$5(RepositoryFactoryBeanSupport.java:322) ~[spring-data-commons-2.6.2.jar:2.6.2]
+	at org.springframework.data.util.Lazy.getNullable(Lazy.java:230) ~[spring-data-commons-2.6.2.jar:2.6.2]
+	at org.springframework.data.util.Lazy.get(Lazy.java:114) ~[spring-data-commons-2.6.2.jar:2.6.2]
+	at org.springframework.data.repository.core.support.RepositoryFactoryBeanSupport.afterPropertiesSet(RepositoryFactoryBeanSupport.java:328) ~[spring-data-commons-2.6.2.jar:2.6.2]
+	at org.springframework.data.jpa.repository.support.JpaRepositoryFactoryBean.afterPropertiesSet(JpaRepositoryFactoryBean.java:144) ~[spring-data-jpa-2.6.2.jar:2.6.2]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.invokeInitMethods(AbstractAutowireCapableBeanFactory.java:1863) ~[spring-beans-5.3.16.jar:5.3.16]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1800) ~[spring-beans-5.3.16.jar:5.3.16]
+	... 21 common frames omitted
+
+2022-03-22 04:46:53.703  INFO 13800 --- [restartedMain] b.c.m.c.r.CadpessoasMarcosApplication    : Starting CadpessoasMarcosApplication using Java 1.8.0_322 on LAPTOP-SBHM2LI7 with PID 13800 (C:\Users\sena_\OneDrive\Documentos\MATERIAS\SEXTO PERÕODO\PROGRAMACAO WEB\pweb_2021.2_marcosHenrique\u1_exercicio3\cadpessoas_marcos\target\classes started by sena_ in C:\Users\sena_\OneDrive\Documentos\MATERIAS\SEXTO PERÕODO\PROGRAMACAO WEB\pweb_2021.2_marcosHenrique\u1_exercicio3\cadpessoas_marcos)
+2022-03-22 04:46:53.703  INFO 13800 --- [restartedMain] b.c.m.c.r.CadpessoasMarcosApplication    : No active profile set, falling back to 1 default profile: "default"
+2022-03-22 04:46:53.781  INFO 13800 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2022-03-22 04:46:53.781  INFO 13800 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2022-03-22 04:46:54.749  INFO 13800 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2022-03-22 04:46:54.831  INFO 13800 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 66 ms. Found 1 JPA repository interfaces.
+2022-03-22 04:46:55.938  INFO 13800 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2022-03-22 04:46:55.953  INFO 13800 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2022-03-22 04:46:55.953  INFO 13800 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.58]
+2022-03-22 04:46:56.018  INFO 13800 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2022-03-22 04:46:56.018  INFO 13800 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 2237 ms
+2022-03-22 04:46:56.050  INFO 13800 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2022-03-22 04:46:56.130  INFO 13800 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2022-03-22 04:46:56.146  INFO 13800 --- [restartedMain] o.s.b.a.h2.H2ConsoleAutoConfiguration    : H2 console available at '/h2-console'. Database available at 'jdbc:h2:mem:cadpessoas'
+2022-03-22 04:46:56.693  INFO 13800 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2022-03-22 04:46:56.880  INFO 13800 --- [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+2022-03-22 04:46:57.056  WARN 13800 --- [restartedMain] ConfigServletWebServerApplicationContext : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'pessoaRepository' defined in br.com.marcos.cadpessoas.repositories.PessoaRepository defined in @EnableJpaRepositories declared on JpaRepositoriesRegistrar.EnableJpaRepositoriesConfiguration: Invocation of init method failed; nested exception is java.lang.IllegalArgumentException: Not a managed type: class br.com.marcos.cadpessoas.model.Pessoa
+2022-03-22 04:46:57.056  INFO 13800 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2022-03-22 04:46:57.275  WARN 13800 --- [restartedMain] o.s.b.f.support.DisposableBeanAdapter    : Invocation of destroy method failed on bean with name 'inMemoryDatabaseShutdownExecutor': org.h2.jdbc.JdbcSQLNonTransientConnectionException: Database is already closed (to disable automatic closing at VM shutdown, add ";DB_CLOSE_ON_EXIT=FALSE" to the db URL) [90121-200]
+2022-03-22 04:46:57.275  INFO 13800 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2022-03-22 04:46:57.275  INFO 13800 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2022-03-22 04:46:57.275  INFO 13800 --- [restartedMain] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2022-03-22 04:46:57.275  INFO 13800 --- [restartedMain] ConditionEvaluationReportLoggingListener : 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2022-03-22 04:46:57.305 ERROR 13800 --- [restartedMain] o.s.boot.SpringApplication               : Application run failed
+
+org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'pessoaRepository' defined in br.com.marcos.cadpessoas.repositories.PessoaRepository defined in @EnableJpaRepositories declared on JpaRepositoriesRegistrar.EnableJpaRepositoriesConfiguration: Invocation of init method failed; nested exception is java.lang.IllegalArgumentException: Not a managed type: class br.com.marcos.cadpessoas.model.Pessoa
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1804) ~[spring-beans-5.3.16.jar:5.3.16]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:620) ~[spring-beans-5.3.16.jar:5.3.16]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:542) ~[spring-beans-5.3.16.jar:5.3.16]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:335) ~[spring-beans-5.3.16.jar:5.3.16]
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234) ~[spring-beans-5.3.16.jar:5.3.16]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:333) ~[spring-beans-5.3.16.jar:5.3.16]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:208) ~[spring-beans-5.3.16.jar:5.3.16]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:934) ~[spring-beans-5.3.16.jar:5.3.16]
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:918) ~[spring-context-5.3.16.jar:5.3.16]
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:583) ~[spring-context-5.3.16.jar:5.3.16]
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:145) ~[spring-boot-2.6.4.jar:2.6.4]
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:740) [spring-boot-2.6.4.jar:2.6.4]
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:415) [spring-boot-2.6.4.jar:2.6.4]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:303) [spring-boot-2.6.4.jar:2.6.4]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1312) [spring-boot-2.6.4.jar:2.6.4]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1301) [spring-boot-2.6.4.jar:2.6.4]
+	at br.com.marcos.cadpessoas.repositories.CadpessoasMarcosApplication.main(CadpessoasMarcosApplication.java:10) [classes/:na]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:1.8.0_322]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[na:1.8.0_322]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:1.8.0_322]
+	at java.lang.reflect.Method.invoke(Method.java:498) ~[na:1.8.0_322]
+	at org.springframework.boot.devtools.restart.RestartLauncher.run(RestartLauncher.java:49) [spring-boot-devtools-2.6.4.jar:2.6.4]
+Caused by: java.lang.IllegalArgumentException: Not a managed type: class br.com.marcos.cadpessoas.model.Pessoa
+	at org.hibernate.metamodel.internal.MetamodelImpl.managedType(MetamodelImpl.java:582) ~[hibernate-core-5.6.5.Final.jar:5.6.5.Final]
+	at org.hibernate.metamodel.internal.MetamodelImpl.managedType(MetamodelImpl.java:85) ~[hibernate-core-5.6.5.Final.jar:5.6.5.Final]
+	at org.springframework.data.jpa.repository.support.JpaMetamodelEntityInformation.<init>(JpaMetamodelEntityInformation.java:75) ~[spring-data-jpa-2.6.2.jar:2.6.2]
+	at org.springframework.data.jpa.repository.support.JpaEntityInformationSupport.getEntityInformation(JpaEntityInformationSupport.java:66) ~[spring-data-jpa-2.6.2.jar:2.6.2]
+	at org.springframework.data.jpa.repository.support.JpaRepositoryFactory.getEntityInformation(JpaRepositoryFactory.java:232) ~[spring-data-jpa-2.6.2.jar:2.6.2]
+	at org.springframework.data.jpa.repository.support.JpaRepositoryFactory.getTargetRepository(JpaRepositoryFactory.java:181) ~[spring-data-jpa-2.6.2.jar:2.6.2]
+	at org.springframework.data.jpa.repository.support.JpaRepositoryFactory.getTargetRepository(JpaRepositoryFactory.java:164) ~[spring-data-jpa-2.6.2.jar:2.6.2]
+	at org.springframework.data.jpa.repository.support.JpaRepositoryFactory.getTargetRepository(JpaRepositoryFactory.java:75) ~[spring-data-jpa-2.6.2.jar:2.6.2]
+	at org.springframework.data.repository.core.support.RepositoryFactorySupport.getRepository(RepositoryFactorySupport.java:324) ~[spring-data-commons-2.6.2.jar:2.6.2]
+	at org.springframework.data.repository.core.support.RepositoryFactoryBeanSupport.lambda$afterPropertiesSet$5(RepositoryFactoryBeanSupport.java:322) ~[spring-data-commons-2.6.2.jar:2.6.2]
+	at org.springframework.data.util.Lazy.getNullable(Lazy.java:230) ~[spring-data-commons-2.6.2.jar:2.6.2]
+	at org.springframework.data.util.Lazy.get(Lazy.java:114) ~[spring-data-commons-2.6.2.jar:2.6.2]
+	at org.springframework.data.repository.core.support.RepositoryFactoryBeanSupport.afterPropertiesSet(RepositoryFactoryBeanSupport.java:328) ~[spring-data-commons-2.6.2.jar:2.6.2]
+	at org.springframework.data.jpa.repository.support.JpaRepositoryFactoryBean.afterPropertiesSet(JpaRepositoryFactoryBean.java:144) ~[spring-data-jpa-2.6.2.jar:2.6.2]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.invokeInitMethods(AbstractAutowireCapableBeanFactory.java:1863) ~[spring-beans-5.3.16.jar:5.3.16]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1800) ~[spring-beans-5.3.16.jar:5.3.16]
+	... 21 common frames omitted
+
+2022-03-22 04:53:24.343  INFO 5160 --- [restartedMain] b.c.m.c.r.CadpessoasMarcosApplication    : Starting CadpessoasMarcosApplication using Java 1.8.0_322 on LAPTOP-SBHM2LI7 with PID 5160 (C:\Users\sena_\OneDrive\Documentos\MATERIAS\SEXTO PERÕODO\PROGRAMACAO WEB\pweb_2021.2_marcosHenrique\u1_exercicio3\cadpessoas_marcos\target\classes started by sena_ in C:\Users\sena_\OneDrive\Documentos\MATERIAS\SEXTO PERÕODO\PROGRAMACAO WEB\pweb_2021.2_marcosHenrique\u1_exercicio3\cadpessoas_marcos)
+2022-03-22 04:53:24.345  INFO 5160 --- [restartedMain] b.c.m.c.r.CadpessoasMarcosApplication    : No active profile set, falling back to 1 default profile: "default"
+2022-03-22 04:53:24.386  INFO 5160 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2022-03-22 04:53:24.387  INFO 5160 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2022-03-22 04:53:24.883  INFO 5160 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2022-03-22 04:53:24.928  INFO 5160 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 34 ms. Found 1 JPA repository interfaces.
+2022-03-22 04:53:25.738  INFO 5160 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2022-03-22 04:53:25.760  INFO 5160 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2022-03-22 04:53:25.761  INFO 5160 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.58]
+2022-03-22 04:53:25.849  INFO 5160 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2022-03-22 04:53:25.850  INFO 5160 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1462 ms
+2022-03-22 04:53:25.886  INFO 5160 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2022-03-22 04:53:25.974  INFO 5160 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2022-03-22 04:53:25.985  INFO 5160 --- [restartedMain] o.s.b.a.h2.H2ConsoleAutoConfiguration    : H2 console available at '/h2-console'. Database available at 'jdbc:h2:mem:cadpessoas'
+2022-03-22 04:53:26.498  INFO 5160 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2022-03-22 04:53:26.678  INFO 5160 --- [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+2022-03-22 04:53:26.880  WARN 5160 --- [restartedMain] ConfigServletWebServerApplicationContext : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'pessoaRepository' defined in br.com.marcos.cadpessoas.repositories.PessoaRepository defined in @EnableJpaRepositories declared on JpaRepositoriesRegistrar.EnableJpaRepositoriesConfiguration: Invocation of init method failed; nested exception is java.lang.IllegalArgumentException: Not a managed type: class br.com.marcos.cadpessoas.model.Pessoa
+2022-03-22 04:53:26.885  INFO 5160 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2022-03-22 04:53:27.109  WARN 5160 --- [restartedMain] o.s.b.f.support.DisposableBeanAdapter    : Invocation of destroy method failed on bean with name 'inMemoryDatabaseShutdownExecutor': org.h2.jdbc.JdbcSQLNonTransientConnectionException: Database is already closed (to disable automatic closing at VM shutdown, add ";DB_CLOSE_ON_EXIT=FALSE" to the db URL) [90121-200]
+2022-03-22 04:53:27.109  INFO 5160 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2022-03-22 04:53:27.113  INFO 5160 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2022-03-22 04:53:27.115  INFO 5160 --- [restartedMain] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2022-03-22 04:53:27.128  INFO 5160 --- [restartedMain] ConditionEvaluationReportLoggingListener : 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2022-03-22 04:53:27.155 ERROR 5160 --- [restartedMain] o.s.boot.SpringApplication               : Application run failed
 
 org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'pessoaRepository' defined in br.com.marcos.cadpessoas.repositories.PessoaRepository defined in @EnableJpaRepositories declared on JpaRepositoriesRegistrar.EnableJpaRepositoriesConfiguration: Invocation of init method failed; nested exception is java.lang.IllegalArgumentException: Not a managed type: class br.com.marcos.cadpessoas.model.Pessoa
 	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1804) ~[spring-beans-5.3.16.jar:5.3.16]

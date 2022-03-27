@@ -1,0 +1,89 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+  }
+  
+  ul.topnav {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+  }
+  
+  ul.topnav li {float: left;}
+  
+  ul.topnav li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  ul.topnav li a:hover:not(.active) {
+    background-color: #111;
+  }
+  
+  ul.topnav li a.active {
+    background-color: rgb(112, 42, 54);
+  }
+  
+  ul.topnav li.right {
+    float: right;
+  }
+  
+  @media screen and (max-width: 600px) {
+    ul.topnav li.right, 
+    ul.topnav li {float: none;}
+  }
+  
+  div.centralizar h2 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 26px;
+  }
+  
+  div.centralizar1 img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  
+  input[type="submit"] {
+    padding: 10px 17px;
+    font-size: 15px;
+    background-color: rgb(112, 42, 54);
+    border: 1px solid rgb(112, 42, 54);
+    cursor: pointer;
+    color: white;
+    transition: 0.5s;
+  }
+  
+  input[type="submit"]:hover {
+    background-color: white;
+    color: purple;
+  }
+  
+  table{
+    width: 100%;
+  }
+  
+  td {
+    background-color:white;
+    padding: 4px;
+  }
+  
+  thead td {
+    font-weight: bold;
+  }
+  
+  tbody td {
+    background-color:white;
+  }
+  
+  h1.diferenciado {
+   color:blue;
+   text-decoration: underline;
+  }

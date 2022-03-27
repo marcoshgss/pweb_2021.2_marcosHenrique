@@ -1,11 +1,12 @@
 <!DOCTYPE html>
 <html lang="pt_br">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link th:href="@{/public/favicon.ico}" rel="icon" type="image/x-icon">
-    <link th:href="@{/style/style.css}" rel="stylesheet"/>
+    <link th:href="@{/style/style.css}" rel="stylesheet" />
     <title>Editar pessoa</title>
 </head>
 
@@ -18,36 +19,39 @@
         <li><a href="/public/contato.html">Mande um e-mail</a></li>
         <li class="right"><a href="/public/sobre.html">Sobre o site</a></li>
     </ul>
-    <form action="">
-      <h1>Formulário para edição de pessoas:</h1>
 
-      <label for="nome">Nome completo*:</label>
-      <input type="text" placeholder="Seu nome completo" required>
-      <br>
+    <h1>Formulário para edição de pessoas:</h1>
 
-      <label for="data"><br>Data de nascimento*:</label>
-      <input type="date" required><br>
+    <form action="#" method="POST" th:object="${pessoa}" th:action="@{/editar/{id}(id=${pessoa.id})}">
+        <p>
+            Nome completo *:
+            <input type="text" placeholder="Seu nome completo." th:field="*{nome}" required />
+        </p>
+        <p>
+            Data de nascimento *:
+            <input type="date" placeholder="dd/mm/aaaa" th:field="*{dataNascimento}" required />
+        </p>
+        <p>
+            e-Mail *:
+            <input type="text" placeholder="nome@dominio.com" th:field="*{email}" required />
+        </p>
 
-      <label for="email"><br>e-Mail*:</label>
-      <input type="email" placeholder="nome@dominio.com" required><br>
+        <p>Gênero *:</p>
+        <p>
+            <input type="radio" name="genero" value="Masculino" th:field="*{genero}" required />Masculino
+        </p>
+        <p>
+            <input type="radio" name="genero" value="Feminino" th:field="*{genero}" required />Feminino
+        </p>
+        <p>
+            <input type="radio" name="genero" value="Não Informado" th:field="*{genero}" required />Não informar
+        </p>
 
-      <label for="sexo"><br>Sexo*:</label><br>
+        <input type="reset" value="Reiniciar">
+        <input type="submit" value="Editar!">
 
-      <br><input type="radio" id="primeira opção" name="Masculino" value="Masculino">
-      <label for="Masculino">Masculino</label><br>
-
-      <br><input type="radio" id="segunda opção" name="Feminino" value="Feminino">
-      <label for="Feminino">Feminino</label><br>
-
-      <br><input type="radio" id="terceira opção" name="Não informar" value="Não informar">
-      <label for="Não informar">Não informar</label><br>
-
-
-      <br><input type="submit" value="Limpar">
-      <input type="submit" value="Cadastrar">
-
-      <p>* Campo obrigatório</p>
-  </form>
+        <p>* Campo obrigatório</p>
+    </form>
 </body>
 
 </html>

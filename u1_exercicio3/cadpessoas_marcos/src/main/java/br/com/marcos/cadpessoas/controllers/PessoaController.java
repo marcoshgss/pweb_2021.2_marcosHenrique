@@ -19,8 +19,8 @@ public class PessoaController {
     @Autowired
     PessoaRepository pessoaRepo;
 
-    PessoaController(PessoaRepository pessoaR) {
-        this.pessoaRepo = pessoaR;
+    PessoaController(PessoaRepository pessoaRepo) {
+        this.pessoaRepo = pessoaRepo;
     }
 
     @GetMapping

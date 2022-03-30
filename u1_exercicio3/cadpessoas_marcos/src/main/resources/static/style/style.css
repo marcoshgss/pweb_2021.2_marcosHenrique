@@ -44,13 +44,28 @@ body {
     justify-content: center;
     font-size: 26px;
   }
-  
+
   div.centralizar1 img {
     display: block;
     margin-left: auto;
     margin-right: auto;
   }
   
+  input[type="reset"] {
+    padding: 10px 17px;
+    font-size: 15px;
+    background-color: rgb(112, 42, 54);
+    border: 1px solid rgb(112, 42, 54);
+    cursor: pointer;
+    color: white;
+    transition: 0.5s;
+  }
+
+  input[type="reset"]:hover {
+    background-color: white;
+    color: purple;
+  }
+
   input[type="submit"] {
     padding: 10px 17px;
     font-size: 15px;

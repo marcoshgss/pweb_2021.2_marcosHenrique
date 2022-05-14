@@ -68,3 +68,50 @@ input {
     width: 89%;
 }
 
+.header-menu .lista-itens {
+    display: flex;
+    list-style: none;
+}
+
+.header-menu .lista-itens a {
+    text-decoration: none;
+    color: black;
+    padding: 1.5rem;
+    transform: 2ms ease-in;
+    position: relative;
+}
+
+.header-menu .lista-itens a:before {
+    content:'';
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 0px;
+    height: 1px;
+    background-color: blue;
+    transition: all 1.5s ease;
+}
+
+.header-menu .lista-itens a:hover:before {
+    width: 100%;
+}
+
+.sub-menu {
+    display: none;
+}
+
+.header-menu .lista-itens:hover .sub-menu {
+    display: block;
+    position: absolute;
+    background-color: red;
+    margin-top: 15px;
+    margin-left: 14px;
+    transition: 0.7s;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.itens {
+    list-style: none;
+    text-decoration: none;
+}

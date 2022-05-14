@@ -36,3 +36,35 @@ header {
     letter-spacing: 0.4rem;
     cursor: pointer;
 }
+
+form {
+    border: 1px solid whitesmoke;
+    border-radius: 0.3em;
+    padding: 0.3em;
+}
+
+form input, form button {
+    font-size: 1.2em;
+    border-radius: 0.2ms;
+    border: none;
+    padding: 0.2em;
+}
+
+form button {
+    cursor: pointer;
+    background-color: red;
+    color: whitesmoke;
+}
+
+form button:hover {
+    background-color: whitesmoke;
+    color: red;
+}
+
+input {
+    outline: none;
+    border-radius: 25px;
+    height: 25px;
+    width: 89%;
+}
+

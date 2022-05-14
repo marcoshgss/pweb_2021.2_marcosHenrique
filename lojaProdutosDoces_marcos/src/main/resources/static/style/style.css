@@ -21,20 +21,14 @@ header {
 }
 
 .menu {
-    text-transform: uppercase;
+    text-transform:uppercase;
     height: 100%;
     display: flex;
     justify-content: space-around;
     align-items: center;
     font-size: 1.8rem;
     background-color: red;
-    padding: 10px;
-}
-
-.logo {
-    font-size: 1.8rem;
-    letter-spacing: 0.4rem;
-    cursor: pointer;
+    padding:10px;
 }
 
 form {
@@ -42,7 +36,6 @@ form {
     border-radius: 0.3em;
     padding: 0.3em;
 }
-
 form input, form button {
     font-size: 1.2em;
     border-radius: 0.2ms;
@@ -68,9 +61,16 @@ input {
     width: 89%;
 }
 
+.logo {
+    font-size: 1.8rem;
+    letter-spacing: 0.4rem;
+    cursor: pointer;
+}
+
 .header-menu .lista-itens {
     display: flex;
     list-style: none;
+   
 }
 
 .header-menu .lista-itens a {
@@ -81,10 +81,8 @@ input {
     position: relative;
 }
 
-
-
 .header-menu .lista-itens a:before {
-    content:'';
+    content:' ';
     position: absolute;
     bottom: 0;
     left: 0;
@@ -96,6 +94,7 @@ input {
 
 .header-menu .lista-itens a:hover:before {
     width: 100%;
+
 }
 
 .sub-menu {

@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" th:href="@{style/style.css}">
+    <title>Editar</title>
+</head>
+
+<body>
+    <header>
+        <div class="menu">
+            <h1 class="logo">DiabeteShop</h1>
+            <form action="#">
+                <input type="text" name=pesquisa placeholder="Buscar Produto">
+                <button><i class="fa-solid fa-magnifying-glass"></i></button>
+            </form>
+            <nav class="header-menu">
+                <ul class="lista-itens">
+                    <li><a href="/">Início</a></li>
+                    <li><a href="/adicionarCliente">cadastre-se</a>
+                        <div class="sub-menu">
+                            <ul class="itens">
+                                <li> <a href="/listarClientes">Informações</a></li>
+                            </ul>
+                        </div>
+                    </li>
+                    <li><a href="/">Add produtos</a>
+                        <div class="sub-menu-1">
+                            <ul class="itens-1">
+                                <li> <a href="/">Informações </a></li>
+                            </ul>
+                        </div>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <h2>Editar Cliente</h2>
+    <form method="POST" th:object="${cliente}" th:action="@{/editar/{id}(id=${cliente.id})}">
+        <p>
+            Nome completo *:
+            <input type="text" placeholder="Seu nome completo." th:field="*{nome}" required />
+        </p>
+        <p>
+            e-Mail *:
+            <input type="text" placeholder="nome@dominio.com" th:field="*{email}" required />
+        </p>
+        <p>
+            telefone *:
+            <input type="tel" name="telefone" pattern="(\([0-9]{2}\)[9]{1}[0-9]{4}-[0-9]{4}"
+                placeholder="(xx)9xxxx-xxxx" th:field="*{telefone}" required />
+        </p>
+
+        <p>Gênero *:</p>
+        <p>
+            <input type="radio" name="genero" value="Masculino" th:field="*{genero}" required />Masculino
+        </p>
+        <p>
+            <input type="radio" name="genero" value="Feminino" th:field="*{genero}" required />Feminino
+        </p>
+        <p>
+            <input type="radio" name="genero" value="Não Informado" th:field="*{genero}" required />Não informar
+        </p>
+        <p>
+            Cidade *:
+            <input type="text" placeholder="Cidade." th:field="*{cidade}" required />
+        </p>
+        <p>
+            Cep *:
+            <input type="text" placeholder="Cep." th:field="*{cep}" required />
+        </p>
+
+        <input type="reset" value="Limpar">
+        <input type="submit" value="Adicionar!">
+
+        <p>* Campo Obrigatório</p>
+    </form>
+</body>
+
+</html>

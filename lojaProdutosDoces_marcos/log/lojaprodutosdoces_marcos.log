@@ -377,3 +377,341 @@ Caused by: java.lang.IllegalArgumentException: Not a managed type: class br.com.
 2022-05-14 09:36:39.647  INFO 12588 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
 2022-05-14 09:36:39.648  INFO 12588 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
 2022-05-14 09:36:39.649  INFO 12588 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2022-05-14 13:20:46.008  INFO 10584 --- [restartedMain] c.m.l.LojaProdutosDocesMarcosApplication : Starting LojaProdutosDocesMarcosApplication using Java 1.8.0_322 on LAPTOP-SBHM2LI7 with PID 10584 (C:\Users\sena_\OneDrive\Documentos\MATERIAS\SEXTO PERÍODO\PROGRAMACAO WEB\pweb_2021.2_marcosHenrique\lojaProdutosDoces_marcos\target\classes started by sena_ in c:\Users\sena_\OneDrive\Documentos\MATERIAS\SEXTO PERÍODO\PROGRAMACAO WEB\pweb_2021.2_marcosHenrique\lojaProdutosDoces_marcos)
+2022-05-14 13:20:46.028  INFO 10584 --- [restartedMain] c.m.l.LojaProdutosDocesMarcosApplication : No active profile set, falling back to 1 default profile: "default"
+2022-05-14 13:20:46.194  INFO 10584 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2022-05-14 13:20:46.194  INFO 10584 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2022-05-14 13:20:47.288  INFO 10584 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2022-05-14 13:20:47.375  INFO 10584 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 72 ms. Found 1 JPA repository interfaces.
+2022-05-14 13:20:50.432  INFO 10584 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2022-05-14 13:20:50.474  INFO 10584 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2022-05-14 13:20:50.475  INFO 10584 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.62]
+2022-05-14 13:20:50.897  INFO 10584 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2022-05-14 13:20:50.898  INFO 10584 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 4703 ms
+2022-05-14 13:20:51.026  INFO 10584 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2022-05-14 13:20:51.451  INFO 10584 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2022-05-14 13:20:51.462  INFO 10584 --- [restartedMain] o.s.b.a.h2.H2ConsoleAutoConfiguration    : H2 console available at '/h2-console'. Database available at 'jdbc:h2:mem:lojaprodutosdoces'
+2022-05-14 13:20:53.465  INFO 10584 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2022-05-14 13:20:54.762  INFO 10584 --- [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+2022-05-14 13:20:55.263  INFO 10584 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2022-05-14 13:20:55.451  INFO 10584 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2022-05-14 13:20:55.486  INFO 10584 --- [restartedMain] c.m.l.LojaProdutosDocesMarcosApplication : Started LojaProdutosDocesMarcosApplication in 10.527 seconds (JVM running for 15.043)
+2022-05-14 13:21:29.706  INFO 10584 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-05-14 13:21:29.707  INFO 10584 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2022-05-14 13:21:29.709  INFO 10584 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2022-05-14 13:32:19.745  INFO 10584 --- [Thread-7] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2022-05-14 13:32:20.015  WARN 10584 --- [Thread-7] o.s.b.f.support.DisposableBeanAdapter    : Invocation of destroy method failed on bean with name 'inMemoryDatabaseShutdownExecutor': org.h2.jdbc.JdbcSQLNonTransientConnectionException: Database is already closed (to disable automatic closing at VM shutdown, add ";DB_CLOSE_ON_EXIT=FALSE" to the db URL) [90121-200]
+2022-05-14 13:32:20.015  INFO 10584 --- [Thread-7] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2022-05-14 13:32:20.058  INFO 10584 --- [Thread-7] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2022-05-14 13:32:20.255  INFO 10584 --- [restartedMain] c.m.l.LojaProdutosDocesMarcosApplication : Starting LojaProdutosDocesMarcosApplication using Java 1.8.0_322 on LAPTOP-SBHM2LI7 with PID 10584 (C:\Users\sena_\OneDrive\Documentos\MATERIAS\SEXTO PERÍODO\PROGRAMACAO WEB\pweb_2021.2_marcosHenrique\lojaProdutosDoces_marcos\target\classes started by sena_ in c:\Users\sena_\OneDrive\Documentos\MATERIAS\SEXTO PERÍODO\PROGRAMACAO WEB\pweb_2021.2_marcosHenrique\lojaProdutosDoces_marcos)
+2022-05-14 13:32:20.255  INFO 10584 --- [restartedMain] c.m.l.LojaProdutosDocesMarcosApplication : No active profile set, falling back to 1 default profile: "default"
+2022-05-14 13:32:20.483  INFO 10584 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2022-05-14 13:32:20.496  INFO 10584 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 12 ms. Found 1 JPA repository interfaces.
+2022-05-14 13:32:20.632  INFO 10584 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2022-05-14 13:32:20.632  INFO 10584 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2022-05-14 13:32:20.633  INFO 10584 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.62]
+2022-05-14 13:32:20.654  INFO 10584 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2022-05-14 13:32:20.654  INFO 10584 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 395 ms
+2022-05-14 13:32:20.668  INFO 10584 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-2 - Starting...
+2022-05-14 13:32:20.671  INFO 10584 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-2 - Start completed.
+2022-05-14 13:32:20.671  INFO 10584 --- [restartedMain] o.s.b.a.h2.H2ConsoleAutoConfiguration    : H2 console available at '/h2-console'. Database available at 'jdbc:h2:mem:lojaprodutosdoces'
+2022-05-14 13:32:20.729  INFO 10584 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2022-05-14 13:32:20.828  INFO 10584 --- [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+2022-05-14 13:32:20.869  INFO 10584 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2022-05-14 13:32:20.877  INFO 10584 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2022-05-14 13:32:20.881  INFO 10584 --- [restartedMain] c.m.l.LojaProdutosDocesMarcosApplication : Started LojaProdutosDocesMarcosApplication in 0.67 seconds (JVM running for 700.438)
+2022-05-14 13:32:20.883  INFO 10584 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2022-05-14 13:33:02.890  INFO 10584 --- [Thread-9] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2022-05-14 13:33:03.093  WARN 10584 --- [Thread-9] o.s.b.f.support.DisposableBeanAdapter    : Invocation of destroy method failed on bean with name 'inMemoryDatabaseShutdownExecutor': org.h2.jdbc.JdbcSQLNonTransientConnectionException: Database is already closed (to disable automatic closing at VM shutdown, add ";DB_CLOSE_ON_EXIT=FALSE" to the db URL) [90121-200]
+2022-05-14 13:33:03.094  INFO 10584 --- [Thread-9] com.zaxxer.hikari.HikariDataSource       : HikariPool-2 - Shutdown initiated...
+2022-05-14 13:33:03.097  INFO 10584 --- [Thread-9] com.zaxxer.hikari.HikariDataSource       : HikariPool-2 - Shutdown completed.
+2022-05-14 13:33:03.271  INFO 10584 --- [restartedMain] c.m.l.LojaProdutosDocesMarcosApplication : Starting LojaProdutosDocesMarcosApplication using Java 1.8.0_322 on LAPTOP-SBHM2LI7 with PID 10584 (C:\Users\sena_\OneDrive\Documentos\MATERIAS\SEXTO PERÍODO\PROGRAMACAO WEB\pweb_2021.2_marcosHenrique\lojaProdutosDoces_marcos\target\classes started by sena_ in c:\Users\sena_\OneDrive\Documentos\MATERIAS\SEXTO PERÍODO\PROGRAMACAO WEB\pweb_2021.2_marcosHenrique\lojaProdutosDoces_marcos)
+2022-05-14 13:33:03.272  INFO 10584 --- [restartedMain] c.m.l.LojaProdutosDocesMarcosApplication : No active profile set, falling back to 1 default profile: "default"
+2022-05-14 13:33:03.541  INFO 10584 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2022-05-14 13:33:03.554  INFO 10584 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 12 ms. Found 1 JPA repository interfaces.
+2022-05-14 13:33:03.690  INFO 10584 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2022-05-14 13:33:03.691  INFO 10584 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2022-05-14 13:33:03.691  INFO 10584 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.62]
+2022-05-14 13:33:03.738  INFO 10584 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2022-05-14 13:33:03.738  INFO 10584 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 463 ms
+2022-05-14 13:33:03.753  INFO 10584 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-3 - Starting...
+2022-05-14 13:33:03.756  INFO 10584 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-3 - Start completed.
+2022-05-14 13:33:03.757  INFO 10584 --- [restartedMain] o.s.b.a.h2.H2ConsoleAutoConfiguration    : H2 console available at '/h2-console'. Database available at 'jdbc:h2:mem:lojaprodutosdoces'
+2022-05-14 13:33:03.822  INFO 10584 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2022-05-14 13:33:03.847  WARN 10584 --- [restartedMain] ConfigServletWebServerApplicationContext : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'clienteController': Lookup method resolution failed; nested exception is java.lang.IllegalStateException: Failed to introspect Class [br.com.marcos.lojaProdutosDoces.controllers.ClienteController] from ClassLoader [org.springframework.boot.devtools.restart.classloader.RestartClassLoader@5657c5ab]
+2022-05-14 13:33:03.848  INFO 10584 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2022-05-14 13:33:04.052  WARN 10584 --- [restartedMain] o.s.b.f.support.DisposableBeanAdapter    : Invocation of destroy method failed on bean with name 'inMemoryDatabaseShutdownExecutor': org.h2.jdbc.JdbcSQLNonTransientConnectionException: Database is already closed (to disable automatic closing at VM shutdown, add ";DB_CLOSE_ON_EXIT=FALSE" to the db URL) [90121-200]
+2022-05-14 13:33:04.054  INFO 10584 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-3 - Shutdown initiated...
+2022-05-14 13:33:04.109  INFO 10584 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-3 - Shutdown completed.
+2022-05-14 13:33:04.110  INFO 10584 --- [restartedMain] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2022-05-14 13:33:04.124  INFO 10584 --- [restartedMain] ConditionEvaluationReportLoggingListener : 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2022-05-14 13:33:04.248 ERROR 10584 --- [restartedMain] o.s.boot.SpringApplication               : Application run failed
+
+org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'clienteController': Lookup method resolution failed; nested exception is java.lang.IllegalStateException: Failed to introspect Class [br.com.marcos.lojaProdutosDoces.controllers.ClienteController] from ClassLoader [org.springframework.boot.devtools.restart.classloader.RestartClassLoader@5657c5ab]
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.determineCandidateConstructors(AutowiredAnnotationBeanPostProcessor.java:289) ~[spring-beans-5.3.19.jar:5.3.19]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.determineConstructorsFromBeanPostProcessors(AbstractAutowireCapableBeanFactory.java:1302) ~[spring-beans-5.3.19.jar:5.3.19]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1219) ~[spring-beans-5.3.19.jar:5.3.19]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:582) ~[spring-beans-5.3.19.jar:5.3.19]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:542) ~[spring-beans-5.3.19.jar:5.3.19]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:335) ~[spring-beans-5.3.19.jar:5.3.19]
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234) ~[spring-beans-5.3.19.jar:5.3.19]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:333) ~[spring-beans-5.3.19.jar:5.3.19]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:208) ~[spring-beans-5.3.19.jar:5.3.19]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:953) ~[spring-beans-5.3.19.jar:5.3.19]
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:918) ~[spring-context-5.3.19.jar:5.3.19]
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:583) ~[spring-context-5.3.19.jar:5.3.19]
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:145) ~[spring-boot-2.6.7.jar:2.6.7]
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:740) [spring-boot-2.6.7.jar:2.6.7]
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:415) [spring-boot-2.6.7.jar:2.6.7]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:303) [spring-boot-2.6.7.jar:2.6.7]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1312) [spring-boot-2.6.7.jar:2.6.7]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1301) [spring-boot-2.6.7.jar:2.6.7]
+	at br.com.marcos.lojaProdutosDoces.LojaProdutosDocesMarcosApplication.main(LojaProdutosDocesMarcosApplication.java:10) [classes/:na]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:1.8.0_322]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[na:1.8.0_322]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:1.8.0_322]
+	at java.lang.reflect.Method.invoke(Method.java:498) ~[na:1.8.0_322]
+	at org.springframework.boot.devtools.restart.RestartLauncher.run(RestartLauncher.java:49) [spring-boot-devtools-2.6.7.jar:2.6.7]
+Caused by: java.lang.IllegalStateException: Failed to introspect Class [br.com.marcos.lojaProdutosDoces.controllers.ClienteController] from ClassLoader [org.springframework.boot.devtools.restart.classloader.RestartClassLoader@5657c5ab]
+	at org.springframework.util.ReflectionUtils.getDeclaredMethods(ReflectionUtils.java:485) ~[spring-core-5.3.19.jar:5.3.19]
+	at org.springframework.util.ReflectionUtils.doWithLocalMethods(ReflectionUtils.java:321) ~[spring-core-5.3.19.jar:5.3.19]
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.determineCandidateConstructors(AutowiredAnnotationBeanPostProcessor.java:267) ~[spring-beans-5.3.19.jar:5.3.19]
+	... 23 common frames omitted
+Caused by: java.lang.NoClassDefFoundError: ModelAndView
+	at java.lang.Class.getDeclaredMethods0(Native Method) ~[na:1.8.0_322]
+	at java.lang.Class.privateGetDeclaredMethods(Class.java:2701) ~[na:1.8.0_322]
+	at java.lang.Class.getDeclaredMethods(Class.java:1975) ~[na:1.8.0_322]
+	at org.springframework.util.ReflectionUtils.getDeclaredMethods(ReflectionUtils.java:467) ~[spring-core-5.3.19.jar:5.3.19]
+	... 25 common frames omitted
+Caused by: java.lang.ClassNotFoundException: ModelAndView
+	at java.net.URLClassLoader.findClass(URLClassLoader.java:387) ~[na:1.8.0_322]
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:418) ~[na:1.8.0_322]
+	at sun.misc.Launcher$AppClassLoader.loadClass(Launcher.java:352) ~[na:1.8.0_322]
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:351) ~[na:1.8.0_322]
+	at java.lang.Class.forName0(Native Method) ~[na:1.8.0_322]
+	at java.lang.Class.forName(Class.java:348) ~[na:1.8.0_322]
+	at org.springframework.boot.devtools.restart.classloader.RestartClassLoader.loadClass(RestartClassLoader.java:145) ~[spring-boot-devtools-2.6.7.jar:2.6.7]
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:351) ~[na:1.8.0_322]
+	... 29 common frames omitted
+
+2022-05-14 13:33:08.766  INFO 10584 --- [restartedMain] c.m.l.LojaProdutosDocesMarcosApplication : Starting LojaProdutosDocesMarcosApplication using Java 1.8.0_322 on LAPTOP-SBHM2LI7 with PID 10584 (C:\Users\sena_\OneDrive\Documentos\MATERIAS\SEXTO PERÍODO\PROGRAMACAO WEB\pweb_2021.2_marcosHenrique\lojaProdutosDoces_marcos\target\classes started by sena_ in c:\Users\sena_\OneDrive\Documentos\MATERIAS\SEXTO PERÍODO\PROGRAMACAO WEB\pweb_2021.2_marcosHenrique\lojaProdutosDoces_marcos)
+2022-05-14 13:33:08.766  INFO 10584 --- [restartedMain] c.m.l.LojaProdutosDocesMarcosApplication : No active profile set, falling back to 1 default profile: "default"
+2022-05-14 13:33:09.044  INFO 10584 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2022-05-14 13:33:09.055  INFO 10584 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 12 ms. Found 1 JPA repository interfaces.
+2022-05-14 13:33:09.186  INFO 10584 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2022-05-14 13:33:09.187  INFO 10584 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2022-05-14 13:33:09.188  INFO 10584 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.62]
+2022-05-14 13:33:09.239  INFO 10584 --- [restartedMain] o.a.c.c.C.[Tomcat-1].[localhost].[/]     : Initializing Spring embedded WebApplicationContext
+2022-05-14 13:33:09.240  INFO 10584 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 471 ms
+2022-05-14 13:33:09.258  INFO 10584 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-4 - Starting...
+2022-05-14 13:33:09.263  INFO 10584 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-4 - Start completed.
+2022-05-14 13:33:09.263  INFO 10584 --- [restartedMain] o.s.b.a.h2.H2ConsoleAutoConfiguration    : H2 console available at '/h2-console'. Database available at 'jdbc:h2:mem:lojaprodutosdoces'
+2022-05-14 13:33:09.321  INFO 10584 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2022-05-14 13:33:09.434  INFO 10584 --- [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+2022-05-14 13:33:09.484  INFO 10584 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2022-05-14 13:33:09.491  INFO 10584 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2022-05-14 13:33:09.495  INFO 10584 --- [restartedMain] c.m.l.LojaProdutosDocesMarcosApplication : Started LojaProdutosDocesMarcosApplication in 0.765 seconds (JVM running for 749.051)
+2022-05-14 13:33:09.496  INFO 10584 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2022-05-14 13:33:19.645  INFO 10584 --- [Thread-13] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2022-05-14 13:33:19.852  WARN 10584 --- [Thread-13] o.s.b.f.support.DisposableBeanAdapter    : Invocation of destroy method failed on bean with name 'inMemoryDatabaseShutdownExecutor': org.h2.jdbc.JdbcSQLNonTransientConnectionException: Database is already closed (to disable automatic closing at VM shutdown, add ";DB_CLOSE_ON_EXIT=FALSE" to the db URL) [90121-200]
+2022-05-14 13:33:19.853  INFO 10584 --- [Thread-13] com.zaxxer.hikari.HikariDataSource       : HikariPool-4 - Shutdown initiated...
+2022-05-14 13:33:19.857  INFO 10584 --- [Thread-13] com.zaxxer.hikari.HikariDataSource       : HikariPool-4 - Shutdown completed.
+2022-05-14 13:33:20.234  INFO 10584 --- [restartedMain] c.m.l.LojaProdutosDocesMarcosApplication : Starting LojaProdutosDocesMarcosApplication using Java 1.8.0_322 on LAPTOP-SBHM2LI7 with PID 10584 (C:\Users\sena_\OneDrive\Documentos\MATERIAS\SEXTO PERÍODO\PROGRAMACAO WEB\pweb_2021.2_marcosHenrique\lojaProdutosDoces_marcos\target\classes started by sena_ in c:\Users\sena_\OneDrive\Documentos\MATERIAS\SEXTO PERÍODO\PROGRAMACAO WEB\pweb_2021.2_marcosHenrique\lojaProdutosDoces_marcos)
+2022-05-14 13:33:20.235  INFO 10584 --- [restartedMain] c.m.l.LojaProdutosDocesMarcosApplication : No active profile set, falling back to 1 default profile: "default"
+2022-05-14 13:33:20.594  INFO 10584 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2022-05-14 13:33:20.619  INFO 10584 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 23 ms. Found 1 JPA repository interfaces.
+2022-05-14 13:33:20.745  INFO 10584 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2022-05-14 13:33:20.746  INFO 10584 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2022-05-14 13:33:20.747  INFO 10584 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.62]
+2022-05-14 13:33:20.850  INFO 10584 --- [restartedMain] o.a.c.c.C.[Tomcat-1].[localhost].[/]     : Initializing Spring embedded WebApplicationContext
+2022-05-14 13:33:20.850  INFO 10584 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 610 ms
+2022-05-14 13:33:20.868  INFO 10584 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-5 - Starting...
+2022-05-14 13:33:20.872  INFO 10584 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-5 - Start completed.
+2022-05-14 13:33:20.872  INFO 10584 --- [restartedMain] o.s.b.a.h2.H2ConsoleAutoConfiguration    : H2 console available at '/h2-console'. Database available at 'jdbc:h2:mem:lojaprodutosdoces'
+2022-05-14 13:33:20.958  INFO 10584 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2022-05-14 13:33:21.057  INFO 10584 --- [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+2022-05-14 13:33:21.089  INFO 10584 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2022-05-14 13:33:21.098  INFO 10584 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2022-05-14 13:33:21.103  INFO 10584 --- [restartedMain] c.m.l.LojaProdutosDocesMarcosApplication : Started LojaProdutosDocesMarcosApplication in 0.938 seconds (JVM running for 760.66)
+2022-05-14 13:33:21.104  INFO 10584 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2022-05-14 13:33:27.834  INFO 10584 --- [Thread-20] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2022-05-14 13:33:28.037  WARN 10584 --- [Thread-20] o.s.b.f.support.DisposableBeanAdapter    : Invocation of destroy method failed on bean with name 'inMemoryDatabaseShutdownExecutor': org.h2.jdbc.JdbcSQLNonTransientConnectionException: Database is already closed (to disable automatic closing at VM shutdown, add ";DB_CLOSE_ON_EXIT=FALSE" to the db URL) [90121-200]
+2022-05-14 13:33:28.037  INFO 10584 --- [Thread-20] com.zaxxer.hikari.HikariDataSource       : HikariPool-5 - Shutdown initiated...
+2022-05-14 13:33:28.041  INFO 10584 --- [Thread-20] com.zaxxer.hikari.HikariDataSource       : HikariPool-5 - Shutdown completed.
+2022-05-14 13:33:28.168  INFO 10584 --- [restartedMain] c.m.l.LojaProdutosDocesMarcosApplication : Starting LojaProdutosDocesMarcosApplication using Java 1.8.0_322 on LAPTOP-SBHM2LI7 with PID 10584 (C:\Users\sena_\OneDrive\Documentos\MATERIAS\SEXTO PERÍODO\PROGRAMACAO WEB\pweb_2021.2_marcosHenrique\lojaProdutosDoces_marcos\target\classes started by sena_ in c:\Users\sena_\OneDrive\Documentos\MATERIAS\SEXTO PERÍODO\PROGRAMACAO WEB\pweb_2021.2_marcosHenrique\lojaProdutosDoces_marcos)
+2022-05-14 13:33:28.168  INFO 10584 --- [restartedMain] c.m.l.LojaProdutosDocesMarcosApplication : No active profile set, falling back to 1 default profile: "default"
+2022-05-14 13:33:28.327  INFO 10584 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2022-05-14 13:33:28.338  INFO 10584 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 10 ms. Found 1 JPA repository interfaces.
+2022-05-14 13:33:28.414  INFO 10584 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2022-05-14 13:33:28.415  INFO 10584 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2022-05-14 13:33:28.415  INFO 10584 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.62]
+2022-05-14 13:33:28.547  INFO 10584 --- [restartedMain] o.a.c.c.C.[Tomcat-1].[localhost].[/]     : Initializing Spring embedded WebApplicationContext
+2022-05-14 13:33:28.548  INFO 10584 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 377 ms
+2022-05-14 13:33:28.558  INFO 10584 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-6 - Starting...
+2022-05-14 13:33:28.560  INFO 10584 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-6 - Start completed.
+2022-05-14 13:33:28.560  INFO 10584 --- [restartedMain] o.s.b.a.h2.H2ConsoleAutoConfiguration    : H2 console available at '/h2-console'. Database available at 'jdbc:h2:mem:lojaprodutosdoces'
+2022-05-14 13:33:28.611  INFO 10584 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2022-05-14 13:33:28.695  INFO 10584 --- [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+2022-05-14 13:33:28.726  INFO 10584 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2022-05-14 13:33:28.733  INFO 10584 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2022-05-14 13:33:28.738  INFO 10584 --- [restartedMain] c.m.l.LojaProdutosDocesMarcosApplication : Started LojaProdutosDocesMarcosApplication in 0.598 seconds (JVM running for 768.295)
+2022-05-14 13:33:28.739  INFO 10584 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2022-05-14 13:33:53.058  INFO 10584 --- [Thread-24] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2022-05-14 13:33:53.264  WARN 10584 --- [Thread-24] o.s.b.f.support.DisposableBeanAdapter    : Invocation of destroy method failed on bean with name 'inMemoryDatabaseShutdownExecutor': org.h2.jdbc.JdbcSQLNonTransientConnectionException: Database is already closed (to disable automatic closing at VM shutdown, add ";DB_CLOSE_ON_EXIT=FALSE" to the db URL) [90121-200]
+2022-05-14 13:33:53.265  INFO 10584 --- [Thread-24] com.zaxxer.hikari.HikariDataSource       : HikariPool-6 - Shutdown initiated...
+2022-05-14 13:33:53.267  INFO 10584 --- [Thread-24] com.zaxxer.hikari.HikariDataSource       : HikariPool-6 - Shutdown completed.
+2022-05-14 13:33:53.576  INFO 10584 --- [restartedMain] c.m.l.LojaProdutosDocesMarcosApplication : Starting LojaProdutosDocesMarcosApplication using Java 1.8.0_322 on LAPTOP-SBHM2LI7 with PID 10584 (C:\Users\sena_\OneDrive\Documentos\MATERIAS\SEXTO PERÍODO\PROGRAMACAO WEB\pweb_2021.2_marcosHenrique\lojaProdutosDoces_marcos\target\classes started by sena_ in c:\Users\sena_\OneDrive\Documentos\MATERIAS\SEXTO PERÍODO\PROGRAMACAO WEB\pweb_2021.2_marcosHenrique\lojaProdutosDoces_marcos)
+2022-05-14 13:33:53.577  INFO 10584 --- [restartedMain] c.m.l.LojaProdutosDocesMarcosApplication : No active profile set, falling back to 1 default profile: "default"
+2022-05-14 13:33:54.091  INFO 10584 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2022-05-14 13:33:54.120  INFO 10584 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 27 ms. Found 1 JPA repository interfaces.
+2022-05-14 13:33:54.407  INFO 10584 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2022-05-14 13:33:54.408  INFO 10584 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2022-05-14 13:33:54.409  INFO 10584 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.62]
+2022-05-14 13:33:54.474  INFO 10584 --- [restartedMain] o.a.c.c.C.[Tomcat-1].[localhost].[/]     : Initializing Spring embedded WebApplicationContext
+2022-05-14 13:33:54.475  INFO 10584 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 891 ms
+2022-05-14 13:33:54.501  INFO 10584 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-7 - Starting...
+2022-05-14 13:33:54.507  INFO 10584 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-7 - Start completed.
+2022-05-14 13:33:54.507  INFO 10584 --- [restartedMain] o.s.b.a.h2.H2ConsoleAutoConfiguration    : H2 console available at '/h2-console'. Database available at 'jdbc:h2:mem:lojaprodutosdoces'
+2022-05-14 13:33:54.619  INFO 10584 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2022-05-14 13:33:54.893  INFO 10584 --- [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+2022-05-14 13:33:54.975  INFO 10584 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2022-05-14 13:33:54.992  INFO 10584 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2022-05-14 13:33:55.003  INFO 10584 --- [restartedMain] c.m.l.LojaProdutosDocesMarcosApplication : Started LojaProdutosDocesMarcosApplication in 1.506 seconds (JVM running for 794.56)
+2022-05-14 13:33:55.006  INFO 10584 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2022-05-14 13:33:56.650  INFO 10584 --- [Thread-28] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2022-05-14 13:33:56.854  WARN 10584 --- [Thread-28] o.s.b.f.support.DisposableBeanAdapter    : Invocation of destroy method failed on bean with name 'inMemoryDatabaseShutdownExecutor': org.h2.jdbc.JdbcSQLNonTransientConnectionException: Database is already closed (to disable automatic closing at VM shutdown, add ";DB_CLOSE_ON_EXIT=FALSE" to the db URL) [90121-200]
+2022-05-14 13:33:56.855  INFO 10584 --- [Thread-28] com.zaxxer.hikari.HikariDataSource       : HikariPool-7 - Shutdown initiated...
+2022-05-14 13:33:56.856  INFO 10584 --- [Thread-28] com.zaxxer.hikari.HikariDataSource       : HikariPool-7 - Shutdown completed.
+2022-05-14 13:33:56.976  INFO 10584 --- [restartedMain] c.m.l.LojaProdutosDocesMarcosApplication : Starting LojaProdutosDocesMarcosApplication using Java 1.8.0_322 on LAPTOP-SBHM2LI7 with PID 10584 (C:\Users\sena_\OneDrive\Documentos\MATERIAS\SEXTO PERÍODO\PROGRAMACAO WEB\pweb_2021.2_marcosHenrique\lojaProdutosDoces_marcos\target\classes started by sena_ in c:\Users\sena_\OneDrive\Documentos\MATERIAS\SEXTO PERÍODO\PROGRAMACAO WEB\pweb_2021.2_marcosHenrique\lojaProdutosDoces_marcos)
+2022-05-14 13:33:56.976  INFO 10584 --- [restartedMain] c.m.l.LojaProdutosDocesMarcosApplication : No active profile set, falling back to 1 default profile: "default"
+2022-05-14 13:33:57.133  INFO 10584 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2022-05-14 13:33:57.144  INFO 10584 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 9 ms. Found 1 JPA repository interfaces.
+2022-05-14 13:33:57.217  INFO 10584 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2022-05-14 13:33:57.218  INFO 10584 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2022-05-14 13:33:57.218  INFO 10584 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.62]
+2022-05-14 13:33:57.248  INFO 10584 --- [restartedMain] o.a.c.c.C.[Tomcat-1].[localhost].[/]     : Initializing Spring embedded WebApplicationContext
+2022-05-14 13:33:57.248  INFO 10584 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 270 ms
+2022-05-14 13:33:57.255  INFO 10584 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-8 - Starting...
+2022-05-14 13:33:57.257  INFO 10584 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-8 - Start completed.
+2022-05-14 13:33:57.257  INFO 10584 --- [restartedMain] o.s.b.a.h2.H2ConsoleAutoConfiguration    : H2 console available at '/h2-console'. Database available at 'jdbc:h2:mem:lojaprodutosdoces'
+2022-05-14 13:33:57.299  INFO 10584 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2022-05-14 13:33:57.366  INFO 10584 --- [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+2022-05-14 13:33:57.400  INFO 10584 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2022-05-14 13:33:57.407  INFO 10584 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2022-05-14 13:33:57.411  INFO 10584 --- [restartedMain] c.m.l.LojaProdutosDocesMarcosApplication : Started LojaProdutosDocesMarcosApplication in 0.464 seconds (JVM running for 796.968)
+2022-05-14 13:33:57.412  INFO 10584 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2022-05-14 13:34:03.153  INFO 10584 --- [Thread-32] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2022-05-14 13:34:03.355  WARN 10584 --- [Thread-32] o.s.b.f.support.DisposableBeanAdapter    : Invocation of destroy method failed on bean with name 'inMemoryDatabaseShutdownExecutor': org.h2.jdbc.JdbcSQLNonTransientConnectionException: Database is already closed (to disable automatic closing at VM shutdown, add ";DB_CLOSE_ON_EXIT=FALSE" to the db URL) [90121-200]
+2022-05-14 13:34:03.356  INFO 10584 --- [Thread-32] com.zaxxer.hikari.HikariDataSource       : HikariPool-8 - Shutdown initiated...
+2022-05-14 13:34:03.358  INFO 10584 --- [Thread-32] com.zaxxer.hikari.HikariDataSource       : HikariPool-8 - Shutdown completed.
+2022-05-14 13:34:03.685  INFO 10584 --- [restartedMain] c.m.l.LojaProdutosDocesMarcosApplication : Starting LojaProdutosDocesMarcosApplication using Java 1.8.0_322 on LAPTOP-SBHM2LI7 with PID 10584 (C:\Users\sena_\OneDrive\Documentos\MATERIAS\SEXTO PERÍODO\PROGRAMACAO WEB\pweb_2021.2_marcosHenrique\lojaProdutosDoces_marcos\target\classes started by sena_ in c:\Users\sena_\OneDrive\Documentos\MATERIAS\SEXTO PERÍODO\PROGRAMACAO WEB\pweb_2021.2_marcosHenrique\lojaProdutosDoces_marcos)
+2022-05-14 13:34:03.686  INFO 10584 --- [restartedMain] c.m.l.LojaProdutosDocesMarcosApplication : No active profile set, falling back to 1 default profile: "default"
+2022-05-14 13:34:04.067  INFO 10584 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2022-05-14 13:34:04.103  INFO 10584 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 34 ms. Found 1 JPA repository interfaces.
+2022-05-14 13:34:04.291  INFO 10584 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2022-05-14 13:34:04.292  INFO 10584 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2022-05-14 13:34:04.292  INFO 10584 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.62]
+2022-05-14 13:34:04.391  INFO 10584 --- [restartedMain] o.a.c.c.C.[Tomcat-1].[localhost].[/]     : Initializing Spring embedded WebApplicationContext
+2022-05-14 13:34:04.391  INFO 10584 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 700 ms
+2022-05-14 13:34:04.409  INFO 10584 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-9 - Starting...
+2022-05-14 13:34:04.413  INFO 10584 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-9 - Start completed.
+2022-05-14 13:34:04.413  INFO 10584 --- [restartedMain] o.s.b.a.h2.H2ConsoleAutoConfiguration    : H2 console available at '/h2-console'. Database available at 'jdbc:h2:mem:lojaprodutosdoces'
+2022-05-14 13:34:04.496  INFO 10584 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2022-05-14 13:34:04.620  INFO 10584 --- [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+2022-05-14 13:34:04.661  INFO 10584 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2022-05-14 13:34:04.675  INFO 10584 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2022-05-14 13:34:04.680  INFO 10584 --- [restartedMain] c.m.l.LojaProdutosDocesMarcosApplication : Started LojaProdutosDocesMarcosApplication in 1.071 seconds (JVM running for 804.237)
+2022-05-14 13:34:04.684  INFO 10584 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2022-05-14 13:34:06.800  INFO 10584 --- [Thread-36] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2022-05-14 13:34:07.004  WARN 10584 --- [Thread-36] o.s.b.f.support.DisposableBeanAdapter    : Invocation of destroy method failed on bean with name 'inMemoryDatabaseShutdownExecutor': org.h2.jdbc.JdbcSQLNonTransientConnectionException: Database is already closed (to disable automatic closing at VM shutdown, add ";DB_CLOSE_ON_EXIT=FALSE" to the db URL) [90121-200]
+2022-05-14 13:34:07.005  INFO 10584 --- [Thread-36] com.zaxxer.hikari.HikariDataSource       : HikariPool-9 - Shutdown initiated...
+2022-05-14 13:34:07.006  INFO 10584 --- [Thread-36] com.zaxxer.hikari.HikariDataSource       : HikariPool-9 - Shutdown completed.
+2022-05-14 13:34:07.160  INFO 10584 --- [restartedMain] c.m.l.LojaProdutosDocesMarcosApplication : Starting LojaProdutosDocesMarcosApplication using Java 1.8.0_322 on LAPTOP-SBHM2LI7 with PID 10584 (C:\Users\sena_\OneDrive\Documentos\MATERIAS\SEXTO PERÍODO\PROGRAMACAO WEB\pweb_2021.2_marcosHenrique\lojaProdutosDoces_marcos\target\classes started by sena_ in c:\Users\sena_\OneDrive\Documentos\MATERIAS\SEXTO PERÍODO\PROGRAMACAO WEB\pweb_2021.2_marcosHenrique\lojaProdutosDoces_marcos)
+2022-05-14 13:34:07.161  INFO 10584 --- [restartedMain] c.m.l.LojaProdutosDocesMarcosApplication : No active profile set, falling back to 1 default profile: "default"
+2022-05-14 13:34:07.368  INFO 10584 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2022-05-14 13:34:07.383  INFO 10584 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 14 ms. Found 1 JPA repository interfaces.
+2022-05-14 13:34:07.458  INFO 10584 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2022-05-14 13:34:07.459  INFO 10584 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2022-05-14 13:34:07.459  INFO 10584 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.62]
+2022-05-14 13:34:07.485  INFO 10584 --- [restartedMain] o.a.c.c.C.[Tomcat-1].[localhost].[/]     : Initializing Spring embedded WebApplicationContext
+2022-05-14 13:34:07.485  INFO 10584 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 322 ms
+2022-05-14 13:34:07.493  INFO 10584 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-10 - Starting...
+2022-05-14 13:34:07.495  INFO 10584 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-10 - Start completed.
+2022-05-14 13:34:07.495  INFO 10584 --- [restartedMain] o.s.b.a.h2.H2ConsoleAutoConfiguration    : H2 console available at '/h2-console'. Database available at 'jdbc:h2:mem:lojaprodutosdoces'
+2022-05-14 13:34:07.541  INFO 10584 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2022-05-14 13:34:07.626  INFO 10584 --- [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+2022-05-14 13:34:07.663  INFO 10584 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2022-05-14 13:34:07.671  INFO 10584 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2022-05-14 13:34:07.674  INFO 10584 --- [restartedMain] c.m.l.LojaProdutosDocesMarcosApplication : Started LojaProdutosDocesMarcosApplication in 0.546 seconds (JVM running for 807.231)
+2022-05-14 13:34:07.676  INFO 10584 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2022-05-14 13:34:09.634  INFO 10584 --- [Thread-40] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2022-05-14 13:34:09.840  WARN 10584 --- [Thread-40] o.s.b.f.support.DisposableBeanAdapter    : Invocation of destroy method failed on bean with name 'inMemoryDatabaseShutdownExecutor': org.h2.jdbc.JdbcSQLNonTransientConnectionException: Database is already closed (to disable automatic closing at VM shutdown, add ";DB_CLOSE_ON_EXIT=FALSE" to the db URL) [90121-200]
+2022-05-14 13:34:09.841  INFO 10584 --- [Thread-40] com.zaxxer.hikari.HikariDataSource       : HikariPool-10 - Shutdown initiated...
+2022-05-14 13:34:09.843  INFO 10584 --- [Thread-40] com.zaxxer.hikari.HikariDataSource       : HikariPool-10 - Shutdown completed.
+2022-05-14 13:34:10.113  INFO 10584 --- [restartedMain] c.m.l.LojaProdutosDocesMarcosApplication : Starting LojaProdutosDocesMarcosApplication using Java 1.8.0_322 on LAPTOP-SBHM2LI7 with PID 10584 (C:\Users\sena_\OneDrive\Documentos\MATERIAS\SEXTO PERÍODO\PROGRAMACAO WEB\pweb_2021.2_marcosHenrique\lojaProdutosDoces_marcos\target\classes started by sena_ in c:\Users\sena_\OneDrive\Documentos\MATERIAS\SEXTO PERÍODO\PROGRAMACAO WEB\pweb_2021.2_marcosHenrique\lojaProdutosDoces_marcos)
+2022-05-14 13:34:10.113  INFO 10584 --- [restartedMain] c.m.l.LojaProdutosDocesMarcosApplication : No active profile set, falling back to 1 default profile: "default"
+2022-05-14 13:34:10.362  INFO 10584 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2022-05-14 13:34:10.380  INFO 10584 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 18 ms. Found 1 JPA repository interfaces.
+2022-05-14 13:34:10.491  INFO 10584 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2022-05-14 13:34:10.492  INFO 10584 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2022-05-14 13:34:10.492  INFO 10584 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.62]
+2022-05-14 13:34:10.553  INFO 10584 --- [restartedMain] o.a.c.c.C.[Tomcat-1].[localhost].[/]     : Initializing Spring embedded WebApplicationContext
+2022-05-14 13:34:10.553  INFO 10584 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 437 ms
+2022-05-14 13:34:10.567  INFO 10584 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-11 - Starting...
+2022-05-14 13:34:10.571  INFO 10584 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-11 - Start completed.
+2022-05-14 13:34:10.571  INFO 10584 --- [restartedMain] o.s.b.a.h2.H2ConsoleAutoConfiguration    : H2 console available at '/h2-console'. Database available at 'jdbc:h2:mem:lojaprodutosdoces'
+2022-05-14 13:34:10.641  INFO 10584 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2022-05-14 13:34:10.782  INFO 10584 --- [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+2022-05-14 13:34:10.832  INFO 10584 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2022-05-14 13:34:10.846  INFO 10584 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2022-05-14 13:34:10.859  INFO 10584 --- [restartedMain] c.m.l.LojaProdutosDocesMarcosApplication : Started LojaProdutosDocesMarcosApplication in 0.784 seconds (JVM running for 810.416)
+2022-05-14 13:34:10.861  INFO 10584 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2022-05-14 13:37:08.614  INFO 10584 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat-1].[localhost].[/]     : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-05-14 13:37:08.616  INFO 10584 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2022-05-14 13:37:08.617  INFO 10584 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2022-05-14 22:03:56.411  INFO 13648 --- [restartedMain] c.m.l.LojaProdutosDocesMarcosApplication : Starting LojaProdutosDocesMarcosApplication using Java 1.8.0_322 on LAPTOP-SBHM2LI7 with PID 13648 (C:\Users\sena_\OneDrive\Documentos\MATERIAS\SEXTO PERÍODO\PROGRAMACAO WEB\pweb_2021.2_marcosHenrique\lojaProdutosDoces_marcos\target\classes started by sena_ in c:\Users\sena_\OneDrive\Documentos\MATERIAS\SEXTO PERÍODO\PROGRAMACAO WEB\pweb_2021.2_marcosHenrique\lojaProdutosDoces_marcos)
+2022-05-14 22:03:56.428  INFO 13648 --- [restartedMain] c.m.l.LojaProdutosDocesMarcosApplication : No active profile set, falling back to 1 default profile: "default"
+2022-05-14 22:03:56.530  INFO 13648 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2022-05-14 22:03:56.531  INFO 13648 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2022-05-14 22:03:57.592  INFO 13648 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2022-05-14 22:03:57.685  INFO 13648 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 78 ms. Found 1 JPA repository interfaces.
+2022-05-14 22:04:00.077  INFO 13648 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2022-05-14 22:04:00.136  INFO 13648 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2022-05-14 22:04:00.137  INFO 13648 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.62]
+2022-05-14 22:04:00.467  INFO 13648 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2022-05-14 22:04:00.468  INFO 13648 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 3935 ms
+2022-05-14 22:04:00.546  INFO 13648 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2022-05-14 22:04:01.169  INFO 13648 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2022-05-14 22:04:01.184  INFO 13648 --- [restartedMain] o.s.b.a.h2.H2ConsoleAutoConfiguration    : H2 console available at '/h2-console'. Database available at 'jdbc:h2:mem:lojaprodutosdoces'
+2022-05-14 22:04:03.035  INFO 13648 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2022-05-14 22:04:03.669  INFO 13648 --- [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+2022-05-14 22:04:04.017  INFO 13648 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2022-05-14 22:04:04.097  INFO 13648 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2022-05-14 22:04:04.137  INFO 13648 --- [restartedMain] c.m.l.LojaProdutosDocesMarcosApplication : Started LojaProdutosDocesMarcosApplication in 8.718 seconds (JVM running for 10.649)
+2022-05-14 22:04:10.559  INFO 13648 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-05-14 22:04:10.559  INFO 13648 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2022-05-14 22:04:10.561  INFO 13648 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2022-05-14 22:27:04.514  INFO 10916 --- [restartedMain] c.m.l.LojaProdutosDocesMarcosApplication : Starting LojaProdutosDocesMarcosApplication using Java 1.8.0_322 on LAPTOP-SBHM2LI7 with PID 10916 (C:\Users\sena_\OneDrive\Documentos\MATERIAS\SEXTO PERÍODO\PROGRAMACAO WEB\pweb_2021.2_marcosHenrique\lojaProdutosDoces_marcos\target\classes started by sena_ in c:\Users\sena_\OneDrive\Documentos\MATERIAS\SEXTO PERÍODO\PROGRAMACAO WEB\pweb_2021.2_marcosHenrique\lojaProdutosDoces_marcos)
+2022-05-14 22:27:04.516  INFO 10916 --- [restartedMain] c.m.l.LojaProdutosDocesMarcosApplication : No active profile set, falling back to 1 default profile: "default"
+2022-05-14 22:27:04.572  INFO 10916 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2022-05-14 22:27:04.572  INFO 10916 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2022-05-14 22:27:05.294  INFO 10916 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2022-05-14 22:27:05.352  INFO 10916 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 47 ms. Found 1 JPA repository interfaces.
+2022-05-14 22:27:06.474  INFO 10916 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2022-05-14 22:27:06.499  INFO 10916 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2022-05-14 22:27:06.500  INFO 10916 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.62]
+2022-05-14 22:27:06.691  INFO 10916 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2022-05-14 22:27:06.692  INFO 10916 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 2119 ms
+2022-05-14 22:27:06.794  INFO 10916 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2022-05-14 22:27:07.316  INFO 10916 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2022-05-14 22:27:07.341  INFO 10916 --- [restartedMain] o.s.b.a.h2.H2ConsoleAutoConfiguration    : H2 console available at '/h2-console'. Database available at 'jdbc:h2:mem:lojaprodutosdoces'
+2022-05-14 22:27:09.856  INFO 10916 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2022-05-14 22:27:10.489  INFO 10916 --- [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+2022-05-14 22:27:10.705  INFO 10916 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2022-05-14 22:27:10.740  INFO 10916 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2022-05-14 22:27:10.752  INFO 10916 --- [restartedMain] c.m.l.LojaProdutosDocesMarcosApplication : Started LojaProdutosDocesMarcosApplication in 6.693 seconds (JVM running for 7.229)
+2022-05-14 22:27:15.451  INFO 10916 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-05-14 22:27:15.451  INFO 10916 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2022-05-14 22:27:15.453  INFO 10916 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 2 ms

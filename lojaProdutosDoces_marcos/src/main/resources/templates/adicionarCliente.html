@@ -40,46 +40,59 @@
         </div>
     </header>
 
-    <h2>Cadastrar de Cliente</h2>
-    <form class="form-principal" method="POST" th:object="${cliente}" th:action="@{/adicionarCliente}">
-        <p>
-            Nome completo *:
-            <input type="text" placeholder="Seu nome completo." th:field="*{nome}" required />
-        </p>
-        <p>
-            e-Mail *:
-            <input type="text" placeholder="nome@dominio.com" th:field="*{email}" required />
-        </p>
-        <p>
-            Telefone *:
-            <input type="tel" name="telefone" pattern="(\([0-9]{2}\)[9]{1}[0-9]{4}-[0-9]{4}" placeholder="(xx)9xxxx-xxxx"
-                th:field="*{telefone}" required />
-        </p>
+    <section class="container1">
 
-        <p>Gênero *:</p>
-        <p>
-            <input type="radio" name="genero" value="Masculino" th:field="*{genero}" required />Masculino
-        </p>
-        <p>
-            <input type="radio" name="genero" value="Feminino" th:field="*{genero}" required />Feminino
-        </p>
-        <p>
-            <input type="radio" name="genero" value="Não Informado" th:field="*{genero}" required />Não informar
-        </p>
-        <p>
-            Cidade *:
-            <input type="text" placeholder="Cidade." th:field="*{cidade}" required />
-        </p>
-        <p>
-            Cep *:
-            <input type="text" placeholder="Cep." th:field="*{cep}" required />
-        </p>
+        <form class="form-principal" method="POST" th:object="${cliente}" th:action="@{/adicionarCliente}">
+            <h2>Cadastrar Cliente</h2>
+            <fieldset>
+                <div class="container2">
+                    <label>Nome completo*:</label>
+                    <input type="text" placeholder="Seu nome completo." th:field="*{nome}" required />
 
-        <input type="reset" value="Limpar">
-        <input type="submit" value="Adicionar!">
+                </div>
 
-        <p>* Campo Obrigatório</p>
-    </form>
+                <div class="container2">
+                    <label>e-Mail *:</label>
+                    <input type="text" placeholder="nome@dominio.com" th:field="*{email}" required />
+
+                </div>
+
+                <div class="container2">
+                    <label>Telefone *:</label>
+                    <input type="tel" name="telefone" pattern="(\([0-9]{2}\)[9]{1}[0-9]{4}-[0-9]{4}"
+                        placeholder="(xx)9xxxx-xxxx" th:field="*{telefone}" required />
+
+                </div>
+            </fieldset>
+
+            <fieldset>
+                <p class="pe">Gênero *:</p>
+                <p class="pe">Masculino</p>
+                <input type="radio" name="genero" value="Masculino" th:field="*{genero}" required />
+                </p>
+                <p class="pe">Feminino</p>
+                <input type="radio" name="genero" value="Feminino" th:field="*{genero}" required />
+                </p>
+                <p class="pe">Não informar</p>
+                <input type="radio" name="genero" value="Não Informado" th:field="*{genero}" required />
+                </p>
+            </fieldset>
+
+            <fieldset>
+                <div class="container2">
+                    <label>Cidade *:</label>
+                    <input type="text" placeholder="Cidade." th:field="*{cidade}" required />
+                    <label>Cep *:</label>
+                    <input type="text" placeholder="Cep." th:field="*{cep}" required />
+                </div>
+                <div class="input1">
+                    <input type="reset" value="Limpar">
+                    <input type="submit" value="Adicionar!">
+                </div>
+                <p>* Campo Obrigatório</p>
+            </fieldset>
+        </form>
+    </section>
 </body>
 
 </html>

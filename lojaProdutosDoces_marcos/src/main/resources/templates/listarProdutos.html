@@ -39,3 +39,46 @@
             </nav>
         </div>
     </header>
+
+    <table>
+        <thead>
+            <tr>
+                <th>id</th>
+                <th>Nome Produto</th>
+                <th>marca</th>
+                <th>altura</th>
+                <th>largura</th>
+                <th>profundidade</th>
+                <th>volume</th>
+                <th>peso</th>
+                <th>precoCompra</th>
+                <th>precoVenda</th>
+                <th>Editar</th>
+                <th>Remover</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr th:each="todosOsprodutos: ${todosOsprodutos}">
+                <td th:text="${todosOsprodutos.id}"></td>
+                <td th:text="${todosOsprodutos.nome}"></td> 
+                <td th:text="${todosOsprodutos.marca}"></td>
+
+                <td th:text="${todosOsprodutos.altura}"></td>
+                <td th:text="${todosOsprodutos.largura}"></td>
+                <td th:text="${todosOsprodutos.profundidade}"></td>
+                <td th:text="${todosOsprodutos.volume}"></td>
+                <td th:text="${todosOsprodutos.peso}"></td>
+                <td th:text="${todosOsprodutos.precoCompra}"></td>
+                <td th:text="${todosOsprodutos.precoVenda}"></td>
+                <td>
+                    <a th:href="@{/edit/{id}(id=${todosOsprodutos.id})}">Editar</a>
+                </td>
+                <td>
+                    <a th:href="@{/remove/{id}(id=${todosOsprodutos.id})}">Remover</a>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+</body>
+
+</html>

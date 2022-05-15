@@ -42,7 +42,7 @@
 
     <section class="container1">
 
-        <form class="form-principal" method="POST" th:object="${cliente}" th:action="@{/adicionarCliente}">
+        <form class="form-principal" method="POST" th:object="${cliente}" th:action="@{/editar/{id}(id=${cliente.id})}">
             <h2>Editar Cliente</h2>
             <fieldset>
                 <div class="container2">

@@ -37,5 +37,71 @@
             </nav>
         </div>
     </header>
+
+    <section class="container1">
+
+        <form class="form-principal" method="POST" th:object="${produto}" th:action="@{/edit/{id}(id=${produto.id})}">
+            <h2>Editar Produto</h2>
+            <fieldset>
+                <div class="container2">
+                    <label>Nome Produto*:</label>
+                    <input type="text" placeholder="Nome do produto." th:field="*{nome}" required />
+
+                </div>
+
+                <div class="container2">
+                    <label>Marca *:</label>
+                    <input type="text" placeholder="Marca" th:field="*{marca}" required />
+                    "
+                </div>
+
+                <div class="container2">
+                    <label>Altura *:</label>
+                    <input type="text" placeholder="Altura" th:field="*{altura}" required />
+                </div>
+
+            </fieldset>
+
+            <fieldset>
+                <div class="container2">
+                    <label>Largura *:</label>
+                    <input type="text" placeholder="Largura" th:field="*{largura}" required />
+                </div>
+
+                <div class="container2">
+                    <label>Profundidade *:</label>
+                    <input type="text" placeholder="Profundidade" th:field="*{profundidade}" required />
+                </div>
+
+                <div class="container2">
+                    <label>Volume *:</label>
+                    <input type="text" placeholder="Volume" th:field="*{volume}" required />
+                </div>
+            </fieldset>
+
+            <fieldset>
+                <div class="container2">
+                    <label>Peso *:</label>
+                    <input type="text" placeholder="Peso" th:field="*{peso}" required />
+                </div>
+
+                <div class="container2">
+                    <label>Preço compra *:</label>
+                    <input type="text" placeholder="Preço de Compra" th:field="*{precoCompra}" required />
+                </div>
+
+                <div class="container2">
+                    <label>Preço venda *:</label>
+                    <input type="text" placeholder="Preço de Venda" th:field="*{precoVenda}" required />
+                </div>
+
+                <div class="input1">
+                    <input type="reset" value="Limpar">
+                    <input type="submit" value="Adicionar!">
+                </div>
+                <p>* Campo Obrigatório</p>
+            </fieldset>
+        </form>
+    </section>
 </body>
 </html>

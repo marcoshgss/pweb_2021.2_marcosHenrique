@@ -9,6 +9,8 @@ import javax.persistence.GenerationType;
 import javax.persistence.Id;
 import javax.persistence.Table;
 
+import org.springframework.format.annotation.DateTimeFormat;
+
 import lombok.AllArgsConstructor;
 import lombok.Data;
 import lombok.NoArgsConstructor;
@@ -34,9 +36,9 @@ public class Produto implements Serializable {
     private float peso;
     private float precoCompra; 
     private float precoVenda;
+    
+    @DateTimeFormat(pattern = "yyyy-MM-dd")
     private LocalDate dataCadastro;
-    
-    
 
     public Long getId() {
         return this.id;

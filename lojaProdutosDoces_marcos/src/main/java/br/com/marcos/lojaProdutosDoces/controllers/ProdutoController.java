@@ -42,6 +42,7 @@ public class ProdutoController {
 
     @PostMapping("/adicionarProduto")
     public String adicionarProduto(Produto p) {
+        p.setVolume(p.getAltura() * p.getLargura() * p.getProfundidade());
         this.produtRepo.save(p);
         return "redirect:/listarProdutos";
     }

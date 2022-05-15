@@ -45,14 +45,15 @@
             <tr>
                 <th>id</th>
                 <th>Nome Produto</th>
-                <th>marca</th>
-                <th>altura</th>
-                <th>largura</th>
-                <th>profundidade</th>
-                <th>volume</th>
-                <th>peso</th>
-                <th>precoCompra</th>
-                <th>precoVenda</th>
+                <th>Marca</th>
+                <th>Altura</th>
+                <th>Largura</th>
+                <th>Profundidade</th>
+                <th>Volume</th>
+                <th>Peso</th>
+                <th>Preço Compra</th>
+                <th>Preço Venda</th>
+                <th>Data Cadastro</th>
                 <th>Editar</th>
                 <th>Remover</th>
             </tr>
@@ -70,7 +71,7 @@
                 <td th:text="${todosOsprodutos.peso}"></td>
                 <td th:text="${todosOsprodutos.precoCompra}"></td>
                 <td th:text="${todosOsprodutos.precoVenda}"></td>
-                <td th:text="${todosOsprodutos.dataCadastro}"></td>
+                <td th:text="${#temporals.format(todosOsprodutos.dataCadastro, 'dd/MM/yyyy')}"></td>
                 <td>
                     <a th:href="@{/edit/{id}(id=${todosOsprodutos.id})}">Editar</a>
                 </td>

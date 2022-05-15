@@ -40,7 +40,40 @@
         </div>
     </header>
 
-    
+    <table>
+        <thead>
+            <tr>
+                <th>id</th>
+                <th>Nome Completo</th>
+                <th>e-Mail</th>
+                <th>Gênero</th>
+                <th>telefone</th>
+                <th>cidade</th>
+                <th>cep</th>
+                <th>Editar</th>
+                <th>Remover</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr th:each="todasOsclientes: ${todasOsclientes}">
+                <td th:text="${todasOsclientes.id}"></td>
+                <td th:text="${todasOsclientes.nome}"></td>
+                <td>
+                    <a th:href="'mailto:'+${todasOsclientes.email}" th:text="${todasOsclientes.email}"></a>
+                </td>
+                <td th:text="${todasOsclientes.genero}"></td>
+                <td th:text="${todasOsclientes.telefone}"></td>
+                <td th:text="${todasOsclientes.cidade}"></td>
+                <td th:text="${todasOsclientes.cep}"></td>
+                <td>
+                    <a th:href="@{/editar/{id}(id=${todasOsclientes.id})}">Editar</a>
+                </td>
+                <td>
+                    <a th:href="@{/remover/{id}(id=${todasOsclientes.id})}">Remover</a>
+                </td>
+            </tr>
+        </tbody>
+    </table>
 </body>
 
 </html>

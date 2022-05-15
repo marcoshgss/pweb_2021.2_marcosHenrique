@@ -139,6 +139,22 @@ input {
     padding: 10px;
     border-radius: 5px;
 }
+table{
+    width: 100%;
+  }
+  
+  td {
+    background-color:white;
+    padding: 4px;
+  }
+  
+  thead td {
+    font-weight: bold;
+  }
+  
+  tbody td {
+    background-color:white;
+  }
                                                         /*Formulário*/
 .container1 {
     display: flex;

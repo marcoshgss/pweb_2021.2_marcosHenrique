@@ -36,7 +36,7 @@ public class Produto implements Serializable {
     private float precoVenda;
     private LocalDate dataCadastro;
     
-
+    
 
     public Long getId() {
         return this.id;
